@@ -1,0 +1,364 @@
+# Rust Concepts So Far
+
+- `fn main() {}`
+- function
+- helper function
+- function call
+- `fn add_one(number: i32) -> i32 { ... }`
+- `add_one(count)`
+- `fn add(left: i32, right: i32) -> i32 { ... }`
+- `add(apples, oranges)`
+- `fn subtract(left: i32, right: i32) -> i32 { ... }`
+- `subtract(starting, removed)`
+- `subtract(removed, starting)`
+- parameter
+- multiple parameters
+- comma-separated parameter list
+- argument
+- multiple arguments
+- arguments match parameters by position
+- argument order
+- return value
+- return type
+- `-> i32`
+- `return`
+- `return number + 1;`
+- explicit return
+- early return
+- `fn describe_count(count: i32) -> &'static str { ... }`
+- `return "none";`
+- `let name: &str = "Eli";`
+- `&`
+- `&str`
+- `&type`
+- reference type
+- shared reference
+- `&` in a type means reference to
+- `str`
+- `str` text data
+- UTF-8
+- ASCII
+- ASCII text is valid UTF-8
+- `let ascii_word: &str = "cafe";`
+- `let utf8_word: &str = "café";`
+- non-ASCII string literal
+- `é`
+- non-ASCII text can be valid UTF-8
+- valid UTF-8
+- `.len()`
+- method call
+- `ascii_word.len()`
+- `utf8_word.len()`
+- byte length
+- `.len()` on `&str` returns bytes
+- `"cafe".len()` is `4`
+- `"café".len()` is `5`
+- `str::len`
+- `str::len(ascii_word)`
+- `::`
+- path
+- path segment
+- path call
+- function call notation for a method
+- `.` method-call syntax
+- receiver
+- `ascii_word` as the receiver in `ascii_word.len()`
+- standard-library method
+- `let word: &str = "café";`
+- `word.len()`
+- `word.chars()`
+- `word.chars().count()`
+- `char`
+- Rust `char` is a Unicode scalar value
+- iterator
+- `Chars` iterator
+- `Iterator`
+- `Iterator::count`
+- `.count()`
+- `.count()` consumes an iterator
+- `bytes: 5`
+- `chars: 4`
+- `let mut chars = word.chars();`
+- `chars.next()`
+- `Iterator::next`
+- `next` advances an iterator
+- `for` loop
+- `for c in word.chars() { ... }`
+- loop variable
+- `c` is a `char`, not an `Option<char>`
+- loop body runs once per item
+- loop ends when the iterator is exhausted
+- execution continues after the loop
+- array
+- array expression
+- `[3, 4, 5]`
+- comma-separated array elements
+- fixed sequence
+- `let numbers = [3, 4, 5];`
+- `for number in numbers { ... }`
+- `number` as an array element binding
+- array indexing
+- index
+- zero-based index
+- `numbers[0]`
+- `numbers[1]`
+- first element
+- second element
+- index bounds
+- valid index
+- out-of-bounds index
+- `numbers[2]`
+- `numbers[3]`
+- `unconditional_panic`
+- array length
+- `numbers.len()`
+- `.len()` on arrays returns elements
+- `length: 3`
+- highest valid index is length minus one
+- computed index
+- last index
+- `let last_index: usize = numbers.len() - 1;`
+- `numbers[last_index]`
+- `last index: 2`
+- `last: 5`
+- `usize`
+- pointer-sized unsigned integer type
+- `len()` returns `usize`
+- array indexes use `usize`
+- empty array
+- `[]`
+- `[i32; 0]`
+- `let numbers: [i32; 0] = [];`
+- `.len()` on an empty array returns `0`
+- `length: 0`
+- empty arrays have no valid indexes
+- `hello_empty_array_last_index_error`
+- `numbers.len() - 1` on an empty array
+- underflow
+- unsigned integer underflow
+- integer overflow
+- arithmetic overflow
+- `attempt to subtract with overflow`
+- debug-mode overflow panic
+- arithmetic failure before indexing
+- `hello_array_last_index_if`
+- `if numbers.len() > 0 { ... } else { ... }`
+- guard
+- guarded calculation
+- precondition
+- non-empty branch
+- empty branch
+- `empty array`
+- accumulator
+- running total
+- `let mut total = 0;`
+- assignment
+- reassignment
+- `=`
+- `total = total + number;`
+- loop-carried value
+- final total
+- `+=`
+- compound assignment
+- `total += number;`
+- addition and assignment
+- enum
+- custom enum
+- `enum Direction { ... }`
+- `Direction`
+- variant
+- enum variant
+- variant without data: `Left`, `Right`, `None`
+- variant with data: `Some(T)`
+- `Left`
+- `Right`
+- `Direction::Left`
+- `Direction::Right`
+- enum variant path
+- `match`
+- match expression
+- match arm
+- `=>`
+- `Direction::Left => "going left"`
+- `Direction::Right => "going right"`
+- match produces a value
+- exhaustiveness
+- every variant must have a matching arm
+- `fn describe(turn: Direction) -> &'static str { match turn { ... } }`
+- match on `Option<char>`
+- `match item { Some(c) => ..., None => ... }`
+- `Some(c)` pattern
+- `c` bound by the pattern
+- extracting data from a variant
+- `fn describe(item: Option<char>) { ... }`
+- `Option<char>` as a function parameter
+- `Option`
+- `Option<T>`
+- `Option<char>`
+- `Option<T>` and `T` are different types
+- `Some`
+- `Some(T)`
+- `Some('c')`
+- `Some('é')`
+- `None`
+- `None` means no value
+- sequence
+- item
+- ordered items
+- `{:?}`
+- debug formatting
+- `Debug`
+- `#[derive(Debug)]`
+- derive attribute
+- derived `Debug`
+- `First turn: Left`
+- `Second turn: Right`
+- `first: Some('c')`
+- `done: None`
+- `&str` is a reference to `str` text data
+- `&'static str`
+- `fn static_message() -> &'static str { ... }`
+- `fn static_message() -> &str { ... }`
+- `'static`
+- static lifetime
+- string literals have the `'static` lifetime
+- string literal return type
+- `error[E0106]: missing lifetime specifier`
+- returned reference needs a lifetime
+- macro
+- macro invocation
+- `!` in `println!`
+- `println!("some string");`
+- Rust source files use the `.rs` extension
+- `main.rs`
+- `rustc <filename>`
+- running the compiled binary with `./main`
+- `cargo new <project_name>`
+- `Cargo.toml`
+- `Cargo.lock`
+- `src/main.rs`
+- `target/`
+- `cargo run`
+- `cargo check`
+- binding
+- `let name = "Eli";`
+- `println!("Hello, {name}!");`
+- `// comment`
+- `let mut name = "Eli";`
+- `name = "Rust";`
+- `error[E0384]: cannot assign twice to immutable variable`
+- shadowing
+- `let name = "Rust";`
+- scope
+- `{ ... }` block
+- ``error[E0425]: cannot find value `name` in this scope``
+- type
+- literal
+- string literal
+- integer literal
+- literal expression
+- type inference
+- `let count = 3;`
+- addition
+- `+`
+- arithmetic expression
+- `let total = apples + oranges;`
+- operand
+- left operand
+- right operand
+- division
+- `/`
+- integer division
+- remainder
+- `%`
+- `let each = total / groups;`
+- `let leftover = total % groups;`
+- subtraction
+- `-`
+- difference
+- multiplication
+- `*`
+- product
+- `let difference = starting - removed;`
+- `let product = difference * multiplier;`
+- `left - right`
+- `Reversed: -7`
+- boolean value
+- `bool`
+- `true`
+- `false`
+- comparison expression
+- `>`
+- greater than
+- `==`
+- equality
+- `let more_apples = apples > oranges;`
+- `let same_amount = apples == oranges;`
+- `<`
+- less than
+- `!=`
+- not equal
+- `>=`
+- greater than or equal to
+- `<=`
+- less than or equal to
+- `let fewer_apples = apples < oranges;`
+- `let different_amount = apples != oranges;`
+- `let at_least_as_many = apples >= oranges;`
+- `let at_most_as_many = apples <= oranges;`
+- `if`
+- condition
+- `if apples > oranges { ... }`
+- `if apples == oranges { ... }`
+- `if` block
+- true condition runs the block
+- false condition skips the block
+- `else`
+- `if ... else`
+- branch
+- if branch
+- else branch
+- only one branch runs
+- false condition runs the `else` block
+- `else if`
+- multiple conditions
+- `if apples > oranges { ... } else if apples < oranges { ... } else { ... }`
+- first true branch runs
+- later branches are skipped
+- final `else` fallback
+- `else if` chain
+- multiple `else if` branches
+- `number % 5 == 0`
+- `number % 3 == 0`
+- `number % 2 == 0`
+- later true conditions are not checked after an earlier true branch
+- branch order matters
+- `let message = if apples > oranges { ... } else { ... };`
+- `if` expression result
+- branch value
+- `"More apples"`
+- `"Not more apples"`
+- semicolon
+- `;`
+- semicolon ends a statement
+- final expression in a block can produce the block value
+- no semicolon after a branch value expression
+- statement
+- `let` statement
+- expression statement
+- statements do not return values
+- expressions evaluate to values
+- expressions can be part of statements
+- statements in a block run in order
+- `error[E0308]: if and else have incompatible types`
+- branch type mismatch
+- expected `&str`, found integer
+- both `if` branch values need the same type
+- type annotation
+- `let name: Type = value;`
+- `let count: i32 = 3;`
+- `i32`
+- signed 32-bit integer type
+- unconstrained integer literals default to `i32`
+- annotated binding
+- type written explicitly in source

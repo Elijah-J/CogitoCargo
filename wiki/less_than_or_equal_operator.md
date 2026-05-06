@@ -1,0 +1,57 @@
+<!-- source: wiki (compiled) -->
+---
+method: llm-compiled
+compiled: 2026-05-06
+sources:
+  - RustPlayground/experiments/hello_more_comparisons/src/main.rs
+  - output/docs/rust/reference/expressions/operator-expr.md
+  - output/docs/rust/reference/types/boolean.md
+topic: rust-playground/less-than-or-equal-operator
+---
+
+# Less-Than-Or-Equal Operator
+
+`<=` is the less-than-or-equal comparison operator. It evaluates to `true` when
+the left operand is less than or equal to the right operand.
+
+## Shape I have used
+
+```rust
+let apples = 7;
+let oranges = 5;
+let at_most_as_many = apples <= oranges;
+println!("At most as many: {at_most_as_many}");
+```
+
+`apples` is the left operand. `oranges` is the right operand. `<=` is the
+operator between them.
+
+## Result value
+
+In `hello_more_comparisons`, `7 <= 5` evaluates to `false`.
+
+```console
+At most as many: false
+```
+
+The result is bound to `at_most_as_many`.
+
+## Useful guardrail
+
+`<=` includes equality. The `hello_more_comparisons` result is false because
+`7` is neither less than nor equal to `5`.
+
+## Corpus references
+
+- [Rust Reference: Operator expressions](../../output/docs/rust/reference/expressions/operator-expr.md)
+- [Rust Reference: Boolean type](../../output/docs/rust/reference/types/boolean.md)
+
+## Related wiki pages
+
+- [Comparison expressions](comparison_expressions.md)
+- [Boolean values](boolean_values.md)
+- [Less-than operator](less_than_operator.md)
+- [Greater-than-or-equal operator](greater_than_or_equal_operator.md)
+- [Operands](operands.md)
+- [Integer literals](integer_literals.md)
+- [Concepts so far](concepts.md)
