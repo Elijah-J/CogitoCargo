@@ -3,8 +3,8 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - output/docs/rust/book/ch03-01-variables-and-mutability.md
-  - RustPlayground/experiments/hello_mutability/src/main.rs
+  - https://doc.rust-lang.org/stable/book/ch03-01-variables-and-mutability.html
+  - experiments/hello_mutability/src/main.rs
 topic: rust-playground/compiler-error-e0384
 ---
 
@@ -52,7 +52,7 @@ reported the compiler diagnostic during `hello_mutability`.
 
 ## Corpus references
 
-- [The Rust Book: Variables and Mutability](../../output/docs/rust/book/ch03-01-variables-and-mutability.md)
+- [The Rust Book: Variables and Mutability](https://doc.rust-lang.org/stable/book/ch03-01-variables-and-mutability.html)
 
 ## Related wiki pages
 

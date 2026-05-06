@@ -3,9 +3,9 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - output/docs/rust/cargo/commands/cargo-run.md
-  - output/docs/rust/book/ch01-03-hello-cargo.md
-  - output/docs/rust/cargo/commands/cargo-build.md
+  - https://doc.rust-lang.org/stable/cargo/commands/cargo-run.html
+  - https://doc.rust-lang.org/stable/book/ch01-03-hello-cargo.html
+  - https://doc.rust-lang.org/stable/cargo/commands/cargo-build.html
 topic: rust-playground/cargo-run
 ---
 
@@ -48,9 +48,9 @@ the Cargo package structure, especially `Cargo.toml` and `src/main.rs`.
 
 ## Corpus references
 
-- [Cargo Book: cargo-run](../../output/docs/rust/cargo/commands/cargo-run.md)
-- [The Rust Book: Hello, Cargo!](../../output/docs/rust/book/ch01-03-hello-cargo.md)
-- [Cargo Book: cargo-build](../../output/docs/rust/cargo/commands/cargo-build.md)
+- [Cargo Book: cargo-run](https://doc.rust-lang.org/stable/cargo/commands/cargo-run.html)
+- [The Rust Book: Hello, Cargo!](https://doc.rust-lang.org/stable/book/ch01-03-hello-cargo.html)
+- [Cargo Book: cargo-build](https://doc.rust-lang.org/stable/cargo/commands/cargo-build.html)
 
 ## Related wiki pages
 

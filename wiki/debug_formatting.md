@@ -3,12 +3,12 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_enum/src/main.rs
-  - RustPlayground/experiments/hello_chars_next/src/main.rs
-  - output/docs/rust/std/macro.println.md
-  - output/docs/rust/std/macro.format.md
-  - output/docs/rust/std/fmt/trait.Debug.md
-  - output/docs/rust/std/option/enum.Option.md
+  - experiments/hello_enum/src/main.rs
+  - experiments/hello_chars_next/src/main.rs
+  - https://doc.rust-lang.org/stable/std/macro.println.html
+  - https://doc.rust-lang.org/stable/std/macro.format.html
+  - https://doc.rust-lang.org/stable/std/fmt/trait.Debug.html
+  - https://doc.rust-lang.org/stable/std/option/enum.Option.html
 topic: rust-playground/debug-formatting
 ---
 
@@ -89,10 +89,10 @@ than as a promise about long-term text output.
 
 ## Corpus references
 
-- [Rust std: `println!`](../../output/docs/rust/std/macro.println.md)
-- [Rust std: `format!`](../../output/docs/rust/std/macro.format.md)
-- [Rust std: `Debug`](../../output/docs/rust/std/fmt/trait.Debug.md)
-- [Rust std: `Option`](../../output/docs/rust/std/option/enum.Option.md)
+- [Rust std: `println!`](https://doc.rust-lang.org/stable/std/macro.println.html)
+- [Rust std: `format!`](https://doc.rust-lang.org/stable/std/macro.format.html)
+- [Rust std: `Debug`](https://doc.rust-lang.org/stable/std/fmt/trait.Debug.html)
+- [Rust std: `Option`](https://doc.rust-lang.org/stable/std/option/enum.Option.html)
 
 ## Related wiki pages
 

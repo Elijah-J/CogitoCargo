@@ -3,15 +3,15 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_array_last_index_if/src/main.rs
-  - RustPlayground/experiments/hello_empty_array_last_index_error/src/main.rs
-  - RustPlayground/experiments/hello_empty_array_len/src/main.rs
-  - RustPlayground/experiments/hello_array_last_index/src/main.rs
-  - output/docs/rust/reference/expressions/operator-expr.md
-  - output/docs/rust/reference/behavior-not-considered-unsafe.md
-  - output/docs/rust/book/ch03-02-data-types.md
-  - output/docs/rust/std/primitive.usize.md
-  - output/docs/rust/std/primitive.slice.md
+  - experiments/hello_array_last_index_if/src/main.rs
+  - experiments/hello_empty_array_last_index_error/src/main.rs
+  - experiments/hello_empty_array_len/src/main.rs
+  - experiments/hello_array_last_index/src/main.rs
+  - https://doc.rust-lang.org/stable/reference/expressions/operator-expr.html
+  - https://doc.rust-lang.org/stable/reference/behavior-not-considered-unsafe.html
+  - https://doc.rust-lang.org/stable/book/ch03-02-data-types.html
+  - https://doc.rust-lang.org/stable/std/primitive.usize.html
+  - https://doc.rust-lang.org/stable/std/primitive.slice.html
 topic: rust-playground/empty-array-last-index-error
 ---
 
@@ -91,11 +91,11 @@ For an empty array, the condition is false, so the subtraction does not run.
 
 ## Corpus references
 
-- [Rust Reference: Operator overflow](../../output/docs/rust/reference/expressions/operator-expr.md)
-- [Rust Reference: Integer overflow](../../output/docs/rust/reference/behavior-not-considered-unsafe.md)
-- [The Rust Book: Integer Overflow](../../output/docs/rust/book/ch03-02-data-types.md)
-- [Rust std: `usize`](../../output/docs/rust/std/primitive.usize.md)
-- [Rust std: slice `len`](../../output/docs/rust/std/primitive.slice.md)
+- [Rust Reference: Operator overflow](https://doc.rust-lang.org/stable/reference/expressions/operator-expr.html)
+- [Rust Reference: Integer overflow](https://doc.rust-lang.org/stable/reference/behavior-not-considered-unsafe.html)
+- [The Rust Book: Integer Overflow](https://doc.rust-lang.org/stable/book/ch03-02-data-types.html)
+- [Rust std: `usize`](https://doc.rust-lang.org/stable/std/primitive.usize.html)
+- [Rust std: slice `len`](https://doc.rust-lang.org/stable/std/primitive.slice.html)
 
 ## Related wiki pages
 

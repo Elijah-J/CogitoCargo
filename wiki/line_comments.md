@@ -3,10 +3,10 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_comments/src/main.rs
-  - output/docs/rust/book/ch03-04-comments.md
-  - output/docs/rust/reference/comments.md
-  - output/docs/rust/rust-by-example/hello/comment.md
+  - experiments/hello_comments/src/main.rs
+  - https://doc.rust-lang.org/stable/book/ch03-04-comments.html
+  - https://doc.rust-lang.org/stable/reference/comments.html
+  - https://doc.rust-lang.org/stable/rust-by-example/hello/comment.html
 topic: rust-playground/line-comments
 ---
 
@@ -48,9 +48,9 @@ comments, but `hello_comments` only uses ordinary `//` comments.
 
 ## Corpus references
 
-- [The Rust Book: Comments](../../output/docs/rust/book/ch03-04-comments.md)
-- [Rust Reference: Comments](../../output/docs/rust/reference/comments.md)
-- [Rust by Example: Comments](../../output/docs/rust/rust-by-example/hello/comment.md)
+- [The Rust Book: Comments](https://doc.rust-lang.org/stable/book/ch03-04-comments.html)
+- [Rust Reference: Comments](https://doc.rust-lang.org/stable/reference/comments.html)
+- [Rust by Example: Comments](https://doc.rust-lang.org/stable/rust-by-example/hello/comment.html)
 
 ## Related wiki pages
 

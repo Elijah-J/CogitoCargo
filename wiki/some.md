@@ -3,9 +3,9 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_chars_next/src/main.rs
-  - output/docs/rust/std/option/enum.Option.md
-  - output/docs/rust/std/iter/trait.Iterator.md
+  - experiments/hello_chars_next/src/main.rs
+  - https://doc.rust-lang.org/stable/std/option/enum.Option.html
+  - https://doc.rust-lang.org/stable/std/iter/trait.Iterator.html
 topic: rust-playground/some
 ---
 
@@ -45,8 +45,8 @@ present.
 
 ## Corpus references
 
-- [Rust std: `Option`](../../output/docs/rust/std/option/enum.Option.md)
-- [Rust std: `Iterator::next`](../../output/docs/rust/std/iter/trait.Iterator.md)
+- [Rust std: `Option`](https://doc.rust-lang.org/stable/std/option/enum.Option.html)
+- [Rust std: `Iterator::next`](https://doc.rust-lang.org/stable/std/iter/trait.Iterator.html)
 
 ## Related wiki pages
 

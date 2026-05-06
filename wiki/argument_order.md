@@ -3,11 +3,11 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_argument_order/src/main.rs
-  - output/docs/rust/book/ch03-03-how-functions-work.md
-  - output/docs/rust/book/ch03-02-data-types.md
-  - output/docs/rust/reference/items/functions.md
-  - output/docs/rust/reference/expressions/operator-expr.md
+  - experiments/hello_argument_order/src/main.rs
+  - https://doc.rust-lang.org/stable/book/ch03-03-how-functions-work.html
+  - https://doc.rust-lang.org/stable/book/ch03-02-data-types.html
+  - https://doc.rust-lang.org/stable/reference/items/functions.html
+  - https://doc.rust-lang.org/stable/reference/expressions/operator-expr.html
 topic: rust-playground/argument-order
 ---
 
@@ -60,10 +60,10 @@ parameter.
 
 ## Corpus references
 
-- [The Rust Book: Functions](../../output/docs/rust/book/ch03-03-how-functions-work.md)
-- [The Rust Book: Data Types](../../output/docs/rust/book/ch03-02-data-types.md)
-- [Rust Reference: functions](../../output/docs/rust/reference/items/functions.md)
-- [Rust Reference: operator expressions](../../output/docs/rust/reference/expressions/operator-expr.md)
+- [The Rust Book: Functions](https://doc.rust-lang.org/stable/book/ch03-03-how-functions-work.html)
+- [The Rust Book: Data Types](https://doc.rust-lang.org/stable/book/ch03-02-data-types.html)
+- [Rust Reference: functions](https://doc.rust-lang.org/stable/reference/items/functions.html)
+- [Rust Reference: operator expressions](https://doc.rust-lang.org/stable/reference/expressions/operator-expr.html)
 
 ## Related wiki pages
 

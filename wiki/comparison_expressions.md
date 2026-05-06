@@ -3,13 +3,13 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_array_last_index_if/src/main.rs
-  - RustPlayground/experiments/hello_comparison/src/main.rs
-  - RustPlayground/experiments/hello_more_comparisons/src/main.rs
-  - RustPlayground/experiments/hello_if/src/main.rs
-  - output/docs/rust/book/ch03-05-control-flow.md
-  - output/docs/rust/reference/expressions/operator-expr.md
-  - output/docs/rust/reference/types/boolean.md
+  - experiments/hello_array_last_index_if/src/main.rs
+  - experiments/hello_comparison/src/main.rs
+  - experiments/hello_more_comparisons/src/main.rs
+  - experiments/hello_if/src/main.rs
+  - https://doc.rust-lang.org/stable/book/ch03-05-control-flow.html
+  - https://doc.rust-lang.org/stable/reference/expressions/operator-expr.html
+  - https://doc.rust-lang.org/stable/reference/types/boolean.html
 topic: rust-playground/comparison-expressions
 ---
 
@@ -91,9 +91,9 @@ a time.
 
 ## Corpus references
 
-- [Rust Reference: Operator expressions](../../output/docs/rust/reference/expressions/operator-expr.md)
-- [The Rust Book: Control Flow](../../output/docs/rust/book/ch03-05-control-flow.md)
-- [Rust Reference: Boolean type](../../output/docs/rust/reference/types/boolean.md)
+- [Rust Reference: Operator expressions](https://doc.rust-lang.org/stable/reference/expressions/operator-expr.html)
+- [The Rust Book: Control Flow](https://doc.rust-lang.org/stable/book/ch03-05-control-flow.html)
+- [Rust Reference: Boolean type](https://doc.rust-lang.org/stable/reference/types/boolean.html)
 
 ## Related wiki pages
 

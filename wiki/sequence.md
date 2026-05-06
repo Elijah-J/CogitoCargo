@@ -3,19 +3,19 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_chars_next/src/main.rs
-  - RustPlayground/experiments/hello_array_for/src/main.rs
-  - RustPlayground/experiments/hello_array_index/src/main.rs
-  - RustPlayground/experiments/hello_array_len/src/main.rs
-  - output/docs/rust/std/primitive.array.md
-  - output/docs/rust/std/primitive.slice.md
-  - output/docs/rust/book/ch13-02-iterators.md
-  - output/docs/rust/book/ch03-02-data-types.md
-  - output/docs/rust/std/iter/trait.Iterator.md
-  - output/docs/rust/std/str/struct.Chars.md
-  - output/docs/rust/std/option/enum.Option.md
-  - output/docs/rust/reference/types/array.md
-  - output/docs/rust/reference/expressions/array-expr.md
+  - experiments/hello_chars_next/src/main.rs
+  - experiments/hello_array_for/src/main.rs
+  - experiments/hello_array_index/src/main.rs
+  - experiments/hello_array_len/src/main.rs
+  - https://doc.rust-lang.org/stable/std/primitive.array.html
+  - https://doc.rust-lang.org/stable/std/primitive.slice.html
+  - https://doc.rust-lang.org/stable/book/ch13-02-iterators.html
+  - https://doc.rust-lang.org/stable/book/ch03-02-data-types.html
+  - https://doc.rust-lang.org/stable/std/iter/trait.Iterator.html
+  - https://doc.rust-lang.org/stable/std/str/struct.Chars.html
+  - https://doc.rust-lang.org/stable/std/option/enum.Option.html
+  - https://doc.rust-lang.org/stable/reference/types/array.html
+  - https://doc.rust-lang.org/stable/reference/expressions/array-expr.html
 topic: rust-playground/sequence
 ---
 
@@ -99,15 +99,15 @@ array.
 
 ## Corpus references
 
-- [The Rust Book: iterators](../../output/docs/rust/book/ch13-02-iterators.md)
-- [The Rust Book: Data Types](../../output/docs/rust/book/ch03-02-data-types.md)
-- [Rust std: array primitive](../../output/docs/rust/std/primitive.array.md)
-- [Rust std: slice `len`](../../output/docs/rust/std/primitive.slice.md)
-- [Rust std: `Iterator`](../../output/docs/rust/std/iter/trait.Iterator.md)
-- [Rust std: `Chars`](../../output/docs/rust/std/str/struct.Chars.md)
-- [Rust std: `Option`](../../output/docs/rust/std/option/enum.Option.md)
-- [Rust Reference: Array types](../../output/docs/rust/reference/types/array.md)
-- [Rust Reference: Array indexing expressions](../../output/docs/rust/reference/expressions/array-expr.md)
+- [The Rust Book: iterators](https://doc.rust-lang.org/stable/book/ch13-02-iterators.html)
+- [The Rust Book: Data Types](https://doc.rust-lang.org/stable/book/ch03-02-data-types.html)
+- [Rust std: array primitive](https://doc.rust-lang.org/stable/std/primitive.array.html)
+- [Rust std: slice `len`](https://doc.rust-lang.org/stable/std/primitive.slice.html)
+- [Rust std: `Iterator`](https://doc.rust-lang.org/stable/std/iter/trait.Iterator.html)
+- [Rust std: `Chars`](https://doc.rust-lang.org/stable/std/str/struct.Chars.html)
+- [Rust std: `Option`](https://doc.rust-lang.org/stable/std/option/enum.Option.html)
+- [Rust Reference: Array types](https://doc.rust-lang.org/stable/reference/types/array.html)
+- [Rust Reference: Array indexing expressions](https://doc.rust-lang.org/stable/reference/expressions/array-expr.html)
 
 ## Related wiki pages
 

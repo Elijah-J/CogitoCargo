@@ -3,8 +3,8 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - output/docs/rust/book/ch01-02-hello-world.md
-  - output/docs/rust/book/ch03-03-how-functions-work.md
+  - https://doc.rust-lang.org/stable/book/ch01-02-hello-world.html
+  - https://doc.rust-lang.org/stable/book/ch03-03-how-functions-work.html
 topic: rust-playground/main-function
 ---
 
@@ -46,8 +46,8 @@ are not the same thing.
 
 ## Corpus references
 
-- [The Rust Book: Hello, World!](../../output/docs/rust/book/ch01-02-hello-world.md)
-- [The Rust Book: Functions](../../output/docs/rust/book/ch03-03-how-functions-work.md)
+- [The Rust Book: Hello, World!](https://doc.rust-lang.org/stable/book/ch01-02-hello-world.html)
+- [The Rust Book: Functions](https://doc.rust-lang.org/stable/book/ch03-03-how-functions-work.html)
 
 ## Related wiki pages
 

@@ -3,13 +3,13 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_addition/src/main.rs
-  - RustPlayground/experiments/hello_division/src/main.rs
-  - RustPlayground/experiments/hello_subtract_multiply/src/main.rs
-  - RustPlayground/experiments/hello_argument_order/src/main.rs
-  - RustPlayground/experiments/hello_comparison/src/main.rs
-  - RustPlayground/experiments/hello_more_comparisons/src/main.rs
-  - output/docs/rust/reference/expressions/operator-expr.md
+  - experiments/hello_addition/src/main.rs
+  - experiments/hello_division/src/main.rs
+  - experiments/hello_subtract_multiply/src/main.rs
+  - experiments/hello_argument_order/src/main.rs
+  - experiments/hello_comparison/src/main.rs
+  - experiments/hello_more_comparisons/src/main.rs
+  - https://doc.rust-lang.org/stable/reference/expressions/operator-expr.html
 topic: rust-playground/operands
 ---
 
@@ -91,7 +91,7 @@ are operands, and `+` is the operator.
 
 ## Corpus references
 
-- [Rust Reference: Operator expressions](../../output/docs/rust/reference/expressions/operator-expr.md)
+- [Rust Reference: Operator expressions](https://doc.rust-lang.org/stable/reference/expressions/operator-expr.html)
 
 ## Related wiki pages
 

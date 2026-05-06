@@ -3,13 +3,13 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_if_value/src/main.rs
-  - RustPlayground/experiments/hello_function/src/main.rs
-  - RustPlayground/experiments/hello_return/src/main.rs
-  - output/docs/rust/book/ch01-02-hello-world.md
-  - output/docs/rust/book/ch03-03-how-functions-work.md
-  - output/docs/rust/reference/expressions/block-expr.md
-  - output/docs/rust/reference/statements.md
+  - experiments/hello_if_value/src/main.rs
+  - experiments/hello_function/src/main.rs
+  - experiments/hello_return/src/main.rs
+  - https://doc.rust-lang.org/stable/book/ch01-02-hello-world.html
+  - https://doc.rust-lang.org/stable/book/ch03-03-how-functions-work.html
+  - https://doc.rust-lang.org/stable/reference/expressions/block-expr.html
+  - https://doc.rust-lang.org/stable/reference/statements.html
 topic: rust-playground/semicolons
 ---
 
@@ -88,10 +88,10 @@ block without a semicolon.
 
 ## Corpus references
 
-- [The Rust Book: Hello, World!](../../output/docs/rust/book/ch01-02-hello-world.md)
-- [The Rust Book: Functions](../../output/docs/rust/book/ch03-03-how-functions-work.md)
-- [Rust Reference: block expressions](../../output/docs/rust/reference/expressions/block-expr.md)
-- [Rust Reference: statements](../../output/docs/rust/reference/statements.md)
+- [The Rust Book: Hello, World!](https://doc.rust-lang.org/stable/book/ch01-02-hello-world.html)
+- [The Rust Book: Functions](https://doc.rust-lang.org/stable/book/ch03-03-how-functions-work.html)
+- [Rust Reference: block expressions](https://doc.rust-lang.org/stable/reference/expressions/block-expr.html)
+- [Rust Reference: statements](https://doc.rust-lang.org/stable/reference/statements.html)
 
 ## Related wiki pages
 

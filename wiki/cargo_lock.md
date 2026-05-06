@@ -3,9 +3,9 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_cargo/Cargo.lock
-  - output/docs/rust/cargo/guide/cargo-toml-vs-cargo-lock.md
-  - output/docs/rust/book/ch01-03-hello-cargo.md
+  - experiments/hello_cargo/Cargo.lock
+  - https://doc.rust-lang.org/stable/cargo/guide/cargo-toml-vs-cargo-lock.html
+  - https://doc.rust-lang.org/stable/book/ch01-03-hello-cargo.html
 topic: rust-playground/cargo-lock
 ---
 
@@ -75,8 +75,8 @@ Do not treat `Cargo.lock` as another place to configure dependencies. Edit
 
 ## Corpus references
 
-- [Cargo Guide: Cargo.toml vs Cargo.lock](../../output/docs/rust/cargo/guide/cargo-toml-vs-cargo-lock.md)
-- [The Rust Book: Hello, Cargo!](../../output/docs/rust/book/ch01-03-hello-cargo.md)
+- [Cargo Guide: Cargo.toml vs Cargo.lock](https://doc.rust-lang.org/stable/cargo/guide/cargo-toml-vs-cargo-lock.html)
+- [The Rust Book: Hello, Cargo!](https://doc.rust-lang.org/stable/book/ch01-03-hello-cargo.html)
 
 ## Related wiki pages
 

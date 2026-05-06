@@ -3,19 +3,19 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_array_last_index_if/src/main.rs
-  - RustPlayground/experiments/hello_empty_array_last_index_error/src/main.rs
-  - RustPlayground/experiments/hello_empty_array_len/src/main.rs
-  - RustPlayground/experiments/hello_array_last_index/src/main.rs
-  - RustPlayground/experiments/hello_array_len/src/main.rs
-  - RustPlayground/experiments/hello_array_for/src/main.rs
-  - RustPlayground/experiments/hello_array_index/src/main.rs
-  - RustPlayground/experiments/hello_array_index_error/src/main.rs
-  - RustPlayground/experiments/hello_utf8_len/src/main.rs
-  - output/docs/rust/reference/expressions/array-expr.md
-  - output/docs/rust/std/primitive.array.md
-  - output/docs/rust/std/primitive.slice.md
-  - output/docs/rust/book/ch03-02-data-types.md
+  - experiments/hello_array_last_index_if/src/main.rs
+  - experiments/hello_empty_array_last_index_error/src/main.rs
+  - experiments/hello_empty_array_len/src/main.rs
+  - experiments/hello_array_last_index/src/main.rs
+  - experiments/hello_array_len/src/main.rs
+  - experiments/hello_array_for/src/main.rs
+  - experiments/hello_array_index/src/main.rs
+  - experiments/hello_array_index_error/src/main.rs
+  - experiments/hello_utf8_len/src/main.rs
+  - https://doc.rust-lang.org/stable/reference/expressions/array-expr.html
+  - https://doc.rust-lang.org/stable/std/primitive.array.html
+  - https://doc.rust-lang.org/stable/std/primitive.slice.html
+  - https://doc.rust-lang.org/stable/book/ch03-02-data-types.html
 topic: rust-playground/array-len
 ---
 
@@ -114,10 +114,10 @@ if numbers.len() > 0 {
 
 ## Corpus references
 
-- [Rust std: array primitive](../../output/docs/rust/std/primitive.array.md)
-- [Rust std: slice `len`](../../output/docs/rust/std/primitive.slice.md)
-- [Rust Reference: Array indexing expressions](../../output/docs/rust/reference/expressions/array-expr.md)
-- [The Rust Book: The Array Type](../../output/docs/rust/book/ch03-02-data-types.md)
+- [Rust std: array primitive](https://doc.rust-lang.org/stable/std/primitive.array.html)
+- [Rust std: slice `len`](https://doc.rust-lang.org/stable/std/primitive.slice.html)
+- [Rust Reference: Array indexing expressions](https://doc.rust-lang.org/stable/reference/expressions/array-expr.html)
+- [The Rust Book: The Array Type](https://doc.rust-lang.org/stable/book/ch03-02-data-types.html)
 
 ## Related wiki pages
 

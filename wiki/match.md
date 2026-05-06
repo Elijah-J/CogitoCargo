@@ -3,9 +3,9 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_match/src/main.rs
-  - RustPlayground/experiments/hello_match_option/src/main.rs
-  - output/docs/rust/book/ch06-02-match.md
+  - experiments/hello_match/src/main.rs
+  - experiments/hello_match_option/src/main.rs
+  - https://doc.rust-lang.org/stable/book/ch06-02-match.html
 topic: rust-playground/match
 ---
 
@@ -127,7 +127,7 @@ that `match` uses the compiler to verify every variant is handled, while
 
 ## Corpus references
 
-- [The Rust Book: The `match` Control Flow Construct](../../output/docs/rust/book/ch06-02-match.md)
+- [The Rust Book: The `match` Control Flow Construct](https://doc.rust-lang.org/stable/book/ch06-02-match.html)
 
 ## Related wiki pages
 

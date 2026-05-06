@@ -3,9 +3,9 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_comparison/src/main.rs
-  - output/docs/rust/reference/expressions/operator-expr.md
-  - output/docs/rust/reference/types/boolean.md
+  - experiments/hello_comparison/src/main.rs
+  - https://doc.rust-lang.org/stable/reference/expressions/operator-expr.html
+  - https://doc.rust-lang.org/stable/reference/types/boolean.html
 topic: rust-playground/equality-operator
 ---
 
@@ -43,8 +43,8 @@ statement, as in `let same_amount = apples == oranges;`.
 
 ## Corpus references
 
-- [Rust Reference: Operator expressions](../../output/docs/rust/reference/expressions/operator-expr.md)
-- [Rust Reference: Boolean type](../../output/docs/rust/reference/types/boolean.md)
+- [Rust Reference: Operator expressions](https://doc.rust-lang.org/stable/reference/expressions/operator-expr.html)
+- [Rust Reference: Boolean type](https://doc.rust-lang.org/stable/reference/types/boolean.html)
 
 ## Related wiki pages
 

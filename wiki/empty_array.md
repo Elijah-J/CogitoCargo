@@ -3,15 +3,15 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_array_last_index_if/src/main.rs
-  - RustPlayground/experiments/hello_empty_array_last_index_error/src/main.rs
-  - RustPlayground/experiments/hello_empty_array_len/src/main.rs
-  - RustPlayground/experiments/hello_array_len/src/main.rs
-  - RustPlayground/experiments/hello_array_last_index/src/main.rs
-  - output/docs/rust/reference/types/array.md
-  - output/docs/rust/reference/expressions/array-expr.md
-  - output/docs/rust/std/primitive.array.md
-  - output/docs/rust/std/primitive.slice.md
+  - experiments/hello_array_last_index_if/src/main.rs
+  - experiments/hello_empty_array_last_index_error/src/main.rs
+  - experiments/hello_empty_array_len/src/main.rs
+  - experiments/hello_array_len/src/main.rs
+  - experiments/hello_array_last_index/src/main.rs
+  - https://doc.rust-lang.org/stable/reference/types/array.html
+  - https://doc.rust-lang.org/stable/reference/expressions/array-expr.html
+  - https://doc.rust-lang.org/stable/std/primitive.array.html
+  - https://doc.rust-lang.org/stable/std/primitive.slice.html
 topic: rust-playground/empty-array
 ---
 
@@ -96,10 +96,10 @@ if numbers.len() > 0 {
 
 ## Corpus references
 
-- [Rust Reference: Array types](../../output/docs/rust/reference/types/array.md)
-- [Rust Reference: Array expressions](../../output/docs/rust/reference/expressions/array-expr.md)
-- [Rust std: array primitive](../../output/docs/rust/std/primitive.array.md)
-- [Rust std: slice `len`](../../output/docs/rust/std/primitive.slice.md)
+- [Rust Reference: Array types](https://doc.rust-lang.org/stable/reference/types/array.html)
+- [Rust Reference: Array expressions](https://doc.rust-lang.org/stable/reference/expressions/array-expr.html)
+- [Rust std: array primitive](https://doc.rust-lang.org/stable/std/primitive.array.html)
+- [Rust std: slice `len`](https://doc.rust-lang.org/stable/std/primitive.slice.html)
 
 ## Related wiki pages
 

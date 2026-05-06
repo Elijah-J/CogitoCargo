@@ -3,10 +3,10 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - output/docs/rust/std/macro.println.md
-  - output/docs/rust/std/macro.format.md
-  - output/docs/rust/book/ch01-02-hello-world.md
-  - output/docs/rust/rust-by-example/hello.md
+  - https://doc.rust-lang.org/stable/std/macro.println.html
+  - https://doc.rust-lang.org/stable/std/macro.format.html
+  - https://doc.rust-lang.org/stable/book/ch01-02-hello-world.html
+  - https://doc.rust-lang.org/stable/rust-by-example/hello.html
 topic: rust-playground/println-macro
 ---
 
@@ -61,10 +61,10 @@ that means it is inside `fn main()`.
 
 ## Corpus references
 
-- [std::println](../../output/docs/rust/std/macro.println.md)
-- [std::format](../../output/docs/rust/std/macro.format.md)
-- [The Rust Book: Hello, World!](../../output/docs/rust/book/ch01-02-hello-world.md)
-- [Rust by Example: Hello World](../../output/docs/rust/rust-by-example/hello.md)
+- [std::println](https://doc.rust-lang.org/stable/std/macro.println.html)
+- [std::format](https://doc.rust-lang.org/stable/std/macro.format.html)
+- [The Rust Book: Hello, World!](https://doc.rust-lang.org/stable/book/ch01-02-hello-world.html)
+- [Rust by Example: Hello World](https://doc.rust-lang.org/stable/rust-by-example/hello.html)
 
 ## Related wiki pages
 

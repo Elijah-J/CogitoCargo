@@ -3,9 +3,9 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - output/docs/rust/cargo/commands/cargo-check.md
-  - output/docs/rust/book/ch01-03-hello-cargo.md
-  - output/docs/rust/cargo/commands/cargo-build.md
+  - https://doc.rust-lang.org/stable/cargo/commands/cargo-check.html
+  - https://doc.rust-lang.org/stable/book/ch01-03-hello-cargo.html
+  - https://doc.rust-lang.org/stable/cargo/commands/cargo-build.html
 topic: rust-playground/cargo-check
 ---
 
@@ -49,9 +49,9 @@ when you need the actual executable.
 
 ## Corpus references
 
-- [Cargo Book: cargo-check](../../output/docs/rust/cargo/commands/cargo-check.md)
-- [The Rust Book: Hello, Cargo!](../../output/docs/rust/book/ch01-03-hello-cargo.md)
-- [Cargo Book: cargo-build](../../output/docs/rust/cargo/commands/cargo-build.md)
+- [Cargo Book: cargo-check](https://doc.rust-lang.org/stable/cargo/commands/cargo-check.html)
+- [The Rust Book: Hello, Cargo!](https://doc.rust-lang.org/stable/book/ch01-03-hello-cargo.html)
+- [Cargo Book: cargo-build](https://doc.rust-lang.org/stable/cargo/commands/cargo-build.html)
 
 ## Related wiki pages
 

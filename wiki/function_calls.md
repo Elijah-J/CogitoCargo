@@ -3,11 +3,11 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_function/src/main.rs
-  - RustPlayground/experiments/hello_two_parameters/src/main.rs
-  - RustPlayground/experiments/hello_argument_order/src/main.rs
-  - output/docs/rust/book/ch03-03-how-functions-work.md
-  - output/docs/rust/reference/items/functions.md
+  - experiments/hello_function/src/main.rs
+  - experiments/hello_two_parameters/src/main.rs
+  - experiments/hello_argument_order/src/main.rs
+  - https://doc.rust-lang.org/stable/book/ch03-03-how-functions-work.html
+  - https://doc.rust-lang.org/stable/reference/items/functions.html
 topic: rust-playground/function-calls
 ---
 
@@ -69,8 +69,8 @@ because it uses `!` after the name.
 
 ## Corpus references
 
-- [The Rust Book: Functions](../../output/docs/rust/book/ch03-03-how-functions-work.md)
-- [Rust Reference: functions](../../output/docs/rust/reference/items/functions.md)
+- [The Rust Book: Functions](https://doc.rust-lang.org/stable/book/ch03-03-how-functions-work.html)
+- [Rust Reference: functions](https://doc.rust-lang.org/stable/reference/items/functions.html)
 
 ## Related wiki pages
 

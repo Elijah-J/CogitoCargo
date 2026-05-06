@@ -3,18 +3,18 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_str_binding/src/main.rs
-  - RustPlayground/experiments/hello_utf8_literal/src/main.rs
-  - RustPlayground/experiments/hello_utf8_len/src/main.rs
-  - RustPlayground/experiments/hello_utf8_chars_count/src/main.rs
-  - output/docs/mdn-glossary/UTF-8.md
-  - output/docs/mdn-glossary/Code_point.md
-  - output/docs/rust/std/primitive.str.md
-  - output/docs/rust/std/primitive.char.md
-  - output/docs/rust/book/ch08-02-strings.md
-  - output/docs/rust/reference/types/str.md
-  - output/docs/rust/reference/input-format.md
-  - output/docs/rust/reference/expressions/literal-expr.md
+  - experiments/hello_str_binding/src/main.rs
+  - experiments/hello_utf8_literal/src/main.rs
+  - experiments/hello_utf8_len/src/main.rs
+  - experiments/hello_utf8_chars_count/src/main.rs
+  - https://developer.mozilla.org/en-US/docs/Glossary/UTF-8
+  - https://developer.mozilla.org/en-US/docs/Glossary/Code_point
+  - https://doc.rust-lang.org/stable/std/primitive.str.html
+  - https://doc.rust-lang.org/stable/std/primitive.char.html
+  - https://doc.rust-lang.org/stable/book/ch08-02-strings.html
+  - https://doc.rust-lang.org/stable/reference/types/str.html
+  - https://doc.rust-lang.org/stable/reference/input-format.html
+  - https://doc.rust-lang.org/stable/reference/expressions/literal-expr.html
 topic: rust-playground/utf-8
 ---
 
@@ -117,14 +117,14 @@ data.
 
 ## Corpus references
 
-- [MDN Glossary: UTF-8](../../output/docs/mdn-glossary/UTF-8.md)
-- [MDN Glossary: Code point](../../output/docs/mdn-glossary/Code_point.md)
-- [Rust std: `str`](../../output/docs/rust/std/primitive.str.md)
-- [Rust std: `char`](../../output/docs/rust/std/primitive.char.md)
-- [The Rust Book: bytes, scalar values, and grapheme clusters](../../output/docs/rust/book/ch08-02-strings.md)
-- [Rust Reference: str](../../output/docs/rust/reference/types/str.md)
-- [Rust Reference: source encoding](../../output/docs/rust/reference/input-format.md)
-- [Rust Reference: string literal expressions](../../output/docs/rust/reference/expressions/literal-expr.md)
+- [MDN Glossary: UTF-8](https://developer.mozilla.org/en-US/docs/Glossary/UTF-8)
+- [MDN Glossary: Code point](https://developer.mozilla.org/en-US/docs/Glossary/Code_point)
+- [Rust std: `str`](https://doc.rust-lang.org/stable/std/primitive.str.html)
+- [Rust std: `char`](https://doc.rust-lang.org/stable/std/primitive.char.html)
+- [The Rust Book: bytes, scalar values, and grapheme clusters](https://doc.rust-lang.org/stable/book/ch08-02-strings.html)
+- [Rust Reference: str](https://doc.rust-lang.org/stable/reference/types/str.html)
+- [Rust Reference: source encoding](https://doc.rust-lang.org/stable/reference/input-format.html)
+- [Rust Reference: string literal expressions](https://doc.rust-lang.org/stable/reference/expressions/literal-expr.html)
 
 ## Related wiki pages
 

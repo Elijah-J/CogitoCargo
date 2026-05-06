@@ -3,26 +3,26 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_empty_array_len/src/main.rs
-  - RustPlayground/experiments/hello_variables/src/main.rs
-  - RustPlayground/experiments/hello_str_binding/src/main.rs
-  - RustPlayground/experiments/hello_static_str_return/src/main.rs
-  - RustPlayground/experiments/hello_integer/src/main.rs
-  - RustPlayground/experiments/hello_addition/src/main.rs
-  - RustPlayground/experiments/hello_comparison/src/main.rs
-  - RustPlayground/experiments/hello_type_annotation/src/main.rs
-  - RustPlayground/experiments/hello_array_for/src/main.rs
-  - output/docs/rust/book/ch03-02-data-types.md
-  - output/docs/rust/book/ch04-03-slices.md
-  - output/docs/rust/reference/statements.md
-  - output/docs/rust/reference/types/boolean.md
-  - output/docs/rust/reference/types/str.md
-  - output/docs/rust/reference/types/array.md
-  - output/docs/rust/reference/expressions/array-expr.md
-  - output/docs/rust/rust-by-example/variable_bindings.md
-  - output/docs/rust/rust-by-example/types/literals.md
-  - output/docs/rust/reference/expressions/literal-expr.md
-  - output/docs/rust/error_codes/E0106.md
+  - experiments/hello_empty_array_len/src/main.rs
+  - experiments/hello_variables/src/main.rs
+  - experiments/hello_str_binding/src/main.rs
+  - experiments/hello_static_str_return/src/main.rs
+  - experiments/hello_integer/src/main.rs
+  - experiments/hello_addition/src/main.rs
+  - experiments/hello_comparison/src/main.rs
+  - experiments/hello_type_annotation/src/main.rs
+  - experiments/hello_array_for/src/main.rs
+  - https://doc.rust-lang.org/stable/book/ch03-02-data-types.html
+  - https://doc.rust-lang.org/stable/book/ch04-03-slices.html
+  - https://doc.rust-lang.org/stable/reference/statements.html
+  - https://doc.rust-lang.org/stable/reference/types/boolean.html
+  - https://doc.rust-lang.org/stable/reference/types/str.html
+  - https://doc.rust-lang.org/stable/reference/types/array.html
+  - https://doc.rust-lang.org/stable/reference/expressions/array-expr.html
+  - https://doc.rust-lang.org/stable/rust-by-example/variable_bindings.html
+  - https://doc.rust-lang.org/stable/rust-by-example/types/literals.html
+  - https://doc.rust-lang.org/stable/reference/expressions/literal-expr.html
+  - https://doc.rust-lang.org/stable/error_codes/E0106.html
 topic: rust-playground/type-inference
 ---
 
@@ -137,15 +137,15 @@ typed and must know variable types at compile time.
 
 ## Corpus references
 
-- [The Rust Book: Data Types](../../output/docs/rust/book/ch03-02-data-types.md)
-- [Rust Reference: statements](../../output/docs/rust/reference/statements.md)
-- [Rust Reference: Boolean type](../../output/docs/rust/reference/types/boolean.md)
-- [Rust Reference: Array types](../../output/docs/rust/reference/types/array.md)
-- [Rust Reference: Array expressions](../../output/docs/rust/reference/expressions/array-expr.md)
-- [Rust by Example: Variable Bindings](../../output/docs/rust/rust-by-example/variable_bindings.md)
-- [Rust by Example: Literals](../../output/docs/rust/rust-by-example/types/literals.md)
-- [Rust Reference: Literal expressions](../../output/docs/rust/reference/expressions/literal-expr.md)
-- [Rust error code E0106](../../output/docs/rust/error_codes/E0106.md)
+- [The Rust Book: Data Types](https://doc.rust-lang.org/stable/book/ch03-02-data-types.html)
+- [Rust Reference: statements](https://doc.rust-lang.org/stable/reference/statements.html)
+- [Rust Reference: Boolean type](https://doc.rust-lang.org/stable/reference/types/boolean.html)
+- [Rust Reference: Array types](https://doc.rust-lang.org/stable/reference/types/array.html)
+- [Rust Reference: Array expressions](https://doc.rust-lang.org/stable/reference/expressions/array-expr.html)
+- [Rust by Example: Variable Bindings](https://doc.rust-lang.org/stable/rust-by-example/variable_bindings.html)
+- [Rust by Example: Literals](https://doc.rust-lang.org/stable/rust-by-example/types/literals.html)
+- [Rust Reference: Literal expressions](https://doc.rust-lang.org/stable/reference/expressions/literal-expr.html)
+- [Rust error code E0106](https://doc.rust-lang.org/stable/error_codes/E0106.html)
 
 ## Related wiki pages
 

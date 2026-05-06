@@ -3,12 +3,12 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_for/src/main.rs
-  - RustPlayground/experiments/hello_array_for/src/main.rs
-  - RustPlayground/experiments/hello_array_sum/src/main.rs
-  - output/docs/rust/book/ch03-05-control-flow.md
-  - output/docs/rust/book/ch13-02-iterators.md
-  - output/docs/rust/reference/expressions/loop-expr.md
+  - experiments/hello_for/src/main.rs
+  - experiments/hello_array_for/src/main.rs
+  - experiments/hello_array_sum/src/main.rs
+  - https://doc.rust-lang.org/stable/book/ch03-05-control-flow.html
+  - https://doc.rust-lang.org/stable/book/ch13-02-iterators.html
+  - https://doc.rust-lang.org/stable/reference/expressions/loop-expr.html
 topic: rust-playground/for-loops
 ---
 
@@ -125,9 +125,9 @@ running total. A running total needs its own mutable binding outside the loop.
 
 ## Corpus references
 
-- [The Rust Book: Control Flow](../../output/docs/rust/book/ch03-05-control-flow.md)
-- [The Rust Book: iterators](../../output/docs/rust/book/ch13-02-iterators.md)
-- [Rust Reference: `for` loops](../../output/docs/rust/reference/expressions/loop-expr.md)
+- [The Rust Book: Control Flow](https://doc.rust-lang.org/stable/book/ch03-05-control-flow.html)
+- [The Rust Book: iterators](https://doc.rust-lang.org/stable/book/ch13-02-iterators.html)
+- [Rust Reference: `for` loops](https://doc.rust-lang.org/stable/reference/expressions/loop-expr.html)
 
 ## Related wiki pages
 

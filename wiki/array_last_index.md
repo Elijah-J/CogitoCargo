@@ -3,18 +3,18 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_array_last_index_if/src/main.rs
-  - RustPlayground/experiments/hello_empty_array_last_index_error/src/main.rs
-  - RustPlayground/experiments/hello_empty_array_len/src/main.rs
-  - RustPlayground/experiments/hello_array_last_index/src/main.rs
-  - RustPlayground/experiments/hello_array_len/src/main.rs
-  - RustPlayground/experiments/hello_array_index/src/main.rs
-  - RustPlayground/experiments/hello_array_index_error/src/main.rs
-  - output/docs/rust/reference/expressions/array-expr.md
-  - output/docs/rust/std/primitive.slice.md
-  - output/docs/rust/std/primitive.array.md
-  - output/docs/rust/reference/types/numeric.md
-  - output/docs/rust/book/ch03-02-data-types.md
+  - experiments/hello_array_last_index_if/src/main.rs
+  - experiments/hello_empty_array_last_index_error/src/main.rs
+  - experiments/hello_empty_array_len/src/main.rs
+  - experiments/hello_array_last_index/src/main.rs
+  - experiments/hello_array_len/src/main.rs
+  - experiments/hello_array_index/src/main.rs
+  - experiments/hello_array_index_error/src/main.rs
+  - https://doc.rust-lang.org/stable/reference/expressions/array-expr.html
+  - https://doc.rust-lang.org/stable/std/primitive.slice.html
+  - https://doc.rust-lang.org/stable/std/primitive.array.html
+  - https://doc.rust-lang.org/stable/reference/types/numeric.html
+  - https://doc.rust-lang.org/stable/book/ch03-02-data-types.html
 topic: rust-playground/array-last-index
 ---
 
@@ -118,11 +118,11 @@ The subtraction only runs in the branch where the array length is greater than
 
 ## Corpus references
 
-- [Rust Reference: Array indexing expressions](../../output/docs/rust/reference/expressions/array-expr.md)
-- [Rust std: slice `len`](../../output/docs/rust/std/primitive.slice.md)
-- [Rust std: array primitive](../../output/docs/rust/std/primitive.array.md)
-- [Rust Reference: numeric types](../../output/docs/rust/reference/types/numeric.md)
-- [The Rust Book: Data Types](../../output/docs/rust/book/ch03-02-data-types.md)
+- [Rust Reference: Array indexing expressions](https://doc.rust-lang.org/stable/reference/expressions/array-expr.html)
+- [Rust std: slice `len`](https://doc.rust-lang.org/stable/std/primitive.slice.html)
+- [Rust std: array primitive](https://doc.rust-lang.org/stable/std/primitive.array.html)
+- [Rust Reference: numeric types](https://doc.rust-lang.org/stable/reference/types/numeric.html)
+- [The Rust Book: Data Types](https://doc.rust-lang.org/stable/book/ch03-02-data-types.html)
 
 ## Related wiki pages
 

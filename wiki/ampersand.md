@@ -3,12 +3,12 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_str_binding/src/main.rs
-  - RustPlayground/experiments/hello_static_str_return/src/main.rs
-  - output/docs/rust/reference/types/pointer.md
-  - output/docs/rust/reference/types/str.md
-  - output/docs/rust/reference/expressions/literal-expr.md
-  - output/docs/rust/book/ch10-03-lifetime-syntax.md
+  - experiments/hello_str_binding/src/main.rs
+  - experiments/hello_static_str_return/src/main.rs
+  - https://doc.rust-lang.org/stable/reference/types/pointer.html
+  - https://doc.rust-lang.org/stable/reference/types/str.html
+  - https://doc.rust-lang.org/stable/reference/expressions/literal-expr.html
+  - https://doc.rust-lang.org/stable/book/ch10-03-lifetime-syntax.html
 topic: rust-playground/ampersand
 ---
 
@@ -79,10 +79,10 @@ appeared in any experiment yet.
 
 ## Corpus references
 
-- [Rust Reference: Pointer types](../../output/docs/rust/reference/types/pointer.md)
-- [Rust Reference: String slice type](../../output/docs/rust/reference/types/str.md)
-- [Rust Reference: String literal expressions](../../output/docs/rust/reference/expressions/literal-expr.md)
-- [The Rust Book: Lifetime annotation syntax](../../output/docs/rust/book/ch10-03-lifetime-syntax.md)
+- [Rust Reference: Pointer types](https://doc.rust-lang.org/stable/reference/types/pointer.html)
+- [Rust Reference: String slice type](https://doc.rust-lang.org/stable/reference/types/str.html)
+- [Rust Reference: String literal expressions](https://doc.rust-lang.org/stable/reference/expressions/literal-expr.html)
+- [The Rust Book: Lifetime annotation syntax](https://doc.rust-lang.org/stable/book/ch10-03-lifetime-syntax.html)
 
 ## Related wiki pages
 

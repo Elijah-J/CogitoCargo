@@ -3,9 +3,9 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_if_type_error/src/main.rs
-  - output/docs/rust/book/ch03-05-control-flow.md
-  - output/docs/rust/reference/expressions/if-expr.md
+  - experiments/hello_if_type_error/src/main.rs
+  - https://doc.rust-lang.org/stable/book/ch03-05-control-flow.html
+  - https://doc.rust-lang.org/stable/reference/expressions/if-expr.html
 topic: rust-playground/compiler-error-e0308
 ---
 
@@ -73,8 +73,8 @@ expression must have the same type in all situations.
 
 ## Corpus references
 
-- [The Rust Book: Control Flow](../../output/docs/rust/book/ch03-05-control-flow.md)
-- [Rust Reference: if expressions](../../output/docs/rust/reference/expressions/if-expr.md)
+- [The Rust Book: Control Flow](https://doc.rust-lang.org/stable/book/ch03-05-control-flow.html)
+- [Rust Reference: if expressions](https://doc.rust-lang.org/stable/reference/expressions/if-expr.html)
 
 ## Related wiki pages
 

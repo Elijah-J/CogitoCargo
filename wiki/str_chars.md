@@ -3,14 +3,14 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_chars_next/src/main.rs
-  - RustPlayground/experiments/hello_utf8_chars_count/src/main.rs
-  - output/docs/rust/std/primitive.str.md
-  - output/docs/rust/std/str/struct.Chars.md
-  - output/docs/rust/std/primitive.char.md
-  - output/docs/rust/std/iter/trait.Iterator.md
-  - output/docs/rust/std/option/enum.Option.md
-  - output/docs/rust/book/ch08-02-strings.md
+  - experiments/hello_chars_next/src/main.rs
+  - experiments/hello_utf8_chars_count/src/main.rs
+  - https://doc.rust-lang.org/stable/std/primitive.str.html
+  - https://doc.rust-lang.org/stable/std/str/struct.Chars.html
+  - https://doc.rust-lang.org/stable/std/primitive.char.html
+  - https://doc.rust-lang.org/stable/std/iter/trait.Iterator.html
+  - https://doc.rust-lang.org/stable/std/option/enum.Option.html
+  - https://doc.rust-lang.org/stable/book/ch08-02-strings.html
 topic: rust-playground/str-chars
 ---
 
@@ -77,12 +77,12 @@ Grapheme-cluster iteration is not provided by Rust's standard library.
 
 ## Corpus references
 
-- [Rust std: `str::chars`](../../output/docs/rust/std/primitive.str.md)
-- [Rust std: `Chars`](../../output/docs/rust/std/str/struct.Chars.md)
-- [Rust std: `char`](../../output/docs/rust/std/primitive.char.md)
-- [Rust std: `Iterator::count`](../../output/docs/rust/std/iter/trait.Iterator.md)
-- [Rust std: `Option`](../../output/docs/rust/std/option/enum.Option.md)
-- [The Rust Book: iterating over strings](../../output/docs/rust/book/ch08-02-strings.md)
+- [Rust std: `str::chars`](https://doc.rust-lang.org/stable/std/primitive.str.html)
+- [Rust std: `Chars`](https://doc.rust-lang.org/stable/std/str/struct.Chars.html)
+- [Rust std: `char`](https://doc.rust-lang.org/stable/std/primitive.char.html)
+- [Rust std: `Iterator::count`](https://doc.rust-lang.org/stable/std/iter/trait.Iterator.html)
+- [Rust std: `Option`](https://doc.rust-lang.org/stable/std/option/enum.Option.html)
+- [The Rust Book: iterating over strings](https://doc.rust-lang.org/stable/book/ch08-02-strings.html)
 
 ## Related wiki pages
 

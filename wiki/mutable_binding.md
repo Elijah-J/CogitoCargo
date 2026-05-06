@@ -3,10 +3,10 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_mutability/src/main.rs
-  - RustPlayground/experiments/hello_array_sum/src/main.rs
-  - RustPlayground/experiments/hello_plus_equals/src/main.rs
-  - output/docs/rust/book/ch03-01-variables-and-mutability.md
+  - experiments/hello_mutability/src/main.rs
+  - experiments/hello_array_sum/src/main.rs
+  - experiments/hello_plus_equals/src/main.rs
+  - https://doc.rust-lang.org/stable/book/ch03-01-variables-and-mutability.html
 topic: rust-playground/mutable-binding
 ---
 
@@ -83,7 +83,7 @@ uses the name directly; it does not repeat `let`.
 
 ## Corpus references
 
-- [The Rust Book: Variables and Mutability](../../output/docs/rust/book/ch03-01-variables-and-mutability.md)
+- [The Rust Book: Variables and Mutability](https://doc.rust-lang.org/stable/book/ch03-01-variables-and-mutability.html)
 
 ## Related wiki pages
 

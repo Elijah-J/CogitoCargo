@@ -3,15 +3,15 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_world/main.rs
-  - RustPlayground/experiments/hello_variables/src/main.rs
-  - RustPlayground/experiments/hello_if/src/main.rs
-  - output/docs/rust/book/ch01-02-hello-world.md
-  - output/docs/rust/reference/macros.md
-  - output/docs/rust/rust-by-example/macros.md
-  - output/docs/rust/book/ch20-05-macros.md
-  - output/docs/rust/std/macro.println.md
-  - output/docs/rust/std/macro.format.md
+  - experiments/hello_world/main.rs
+  - experiments/hello_variables/src/main.rs
+  - experiments/hello_if/src/main.rs
+  - https://doc.rust-lang.org/stable/book/ch01-02-hello-world.html
+  - https://doc.rust-lang.org/stable/reference/macros.html
+  - https://doc.rust-lang.org/stable/rust-by-example/macros.html
+  - https://doc.rust-lang.org/stable/book/ch20-05-macros.html
+  - https://doc.rust-lang.org/stable/std/macro.println.html
+  - https://doc.rust-lang.org/stable/std/macro.format.html
 topic: rust-playground/macros
 ---
 
@@ -86,12 +86,12 @@ writing a new macro is a later topic.
 
 ## Corpus references
 
-- [The Rust Book: Hello, World!](../../output/docs/rust/book/ch01-02-hello-world.md)
-- [Rust Reference: Macros](../../output/docs/rust/reference/macros.md)
-- [Rust by Example: Macros](../../output/docs/rust/rust-by-example/macros.md)
-- [The Rust Book: Macros](../../output/docs/rust/book/ch20-05-macros.md)
-- [std::println](../../output/docs/rust/std/macro.println.md)
-- [std::format](../../output/docs/rust/std/macro.format.md)
+- [The Rust Book: Hello, World!](https://doc.rust-lang.org/stable/book/ch01-02-hello-world.html)
+- [Rust Reference: Macros](https://doc.rust-lang.org/stable/reference/macros.html)
+- [Rust by Example: Macros](https://doc.rust-lang.org/stable/rust-by-example/macros.html)
+- [The Rust Book: Macros](https://doc.rust-lang.org/stable/book/ch20-05-macros.html)
+- [std::println](https://doc.rust-lang.org/stable/std/macro.println.html)
+- [std::format](https://doc.rust-lang.org/stable/std/macro.format.html)
 
 ## Related wiki pages
 

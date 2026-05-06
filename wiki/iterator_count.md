@@ -3,10 +3,10 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_utf8_chars_count/src/main.rs
-  - output/docs/rust/std/iter/trait.Iterator.md
-  - output/docs/rust/book/ch13-02-iterators.md
-  - output/docs/rust/std/primitive.str.md
+  - experiments/hello_utf8_chars_count/src/main.rs
+  - https://doc.rust-lang.org/stable/std/iter/trait.Iterator.html
+  - https://doc.rust-lang.org/stable/book/ch13-02-iterators.html
+  - https://doc.rust-lang.org/stable/std/primitive.str.html
 topic: rust-playground/iterator-count
 ---
 
@@ -62,9 +62,9 @@ be. In `hello_utf8_chars_count`, `chars()` decides that the items are Rust
 
 ## Corpus references
 
-- [Rust std: `Iterator::count`](../../output/docs/rust/std/iter/trait.Iterator.md)
-- [The Rust Book: consuming iterators](../../output/docs/rust/book/ch13-02-iterators.md)
-- [Rust std: `str::chars`](../../output/docs/rust/std/primitive.str.md)
+- [Rust std: `Iterator::count`](https://doc.rust-lang.org/stable/std/iter/trait.Iterator.html)
+- [The Rust Book: consuming iterators](https://doc.rust-lang.org/stable/book/ch13-02-iterators.html)
+- [Rust std: `str::chars`](https://doc.rust-lang.org/stable/std/primitive.str.html)
 
 ## Related wiki pages
 

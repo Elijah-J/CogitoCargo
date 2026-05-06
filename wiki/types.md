@@ -3,27 +3,27 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_empty_array_len/src/main.rs
-  - output/docs/rust/book/ch03-02-data-types.md
-  - output/docs/rust/book/ch03-05-control-flow.md
-  - output/docs/rust/book/ch04-03-slices.md
-  - output/docs/rust/reference/types/boolean.md
-  - output/docs/rust/reference/expressions/if-expr.md
-  - output/docs/rust/reference/types/numeric.md
-  - output/docs/rust/reference/types/str.md
-  - output/docs/rust/rust-by-example/variable_bindings.md
-  - RustPlayground/experiments/hello_integer/src/main.rs
-  - RustPlayground/experiments/hello_addition/src/main.rs
-  - RustPlayground/experiments/hello_comparison/src/main.rs
-  - RustPlayground/experiments/hello_if_type_error/src/main.rs
-  - RustPlayground/experiments/hello_type_annotation/src/main.rs
-  - RustPlayground/experiments/hello_str_binding/src/main.rs
-  - RustPlayground/experiments/hello_static_str_return/src/main.rs
-  - RustPlayground/experiments/hello_array_for/src/main.rs
-  - RustPlayground/experiments/hello_array_last_index/src/main.rs
-  - output/docs/rust/reference/types/array.md
-  - output/docs/rust/std/primitive.slice.md
-  - output/docs/rust/reference/expressions/array-expr.md
+  - experiments/hello_empty_array_len/src/main.rs
+  - https://doc.rust-lang.org/stable/book/ch03-02-data-types.html
+  - https://doc.rust-lang.org/stable/book/ch03-05-control-flow.html
+  - https://doc.rust-lang.org/stable/book/ch04-03-slices.html
+  - https://doc.rust-lang.org/stable/reference/types/boolean.html
+  - https://doc.rust-lang.org/stable/reference/expressions/if-expr.html
+  - https://doc.rust-lang.org/stable/reference/types/numeric.html
+  - https://doc.rust-lang.org/stable/reference/types/str.html
+  - https://doc.rust-lang.org/stable/rust-by-example/variable_bindings.html
+  - experiments/hello_integer/src/main.rs
+  - experiments/hello_addition/src/main.rs
+  - experiments/hello_comparison/src/main.rs
+  - experiments/hello_if_type_error/src/main.rs
+  - experiments/hello_type_annotation/src/main.rs
+  - experiments/hello_str_binding/src/main.rs
+  - experiments/hello_static_str_return/src/main.rs
+  - experiments/hello_array_for/src/main.rs
+  - experiments/hello_array_last_index/src/main.rs
+  - https://doc.rust-lang.org/stable/reference/types/array.html
+  - https://doc.rust-lang.org/stable/std/primitive.slice.html
+  - https://doc.rust-lang.org/stable/reference/expressions/array-expr.html
 topic: rust-playground/types
 ---
 
@@ -141,15 +141,15 @@ literal.
 
 ## Corpus references
 
-- [The Rust Book: Data Types](../../output/docs/rust/book/ch03-02-data-types.md)
-- [The Rust Book: Control Flow](../../output/docs/rust/book/ch03-05-control-flow.md)
-- [Rust Reference: Boolean type](../../output/docs/rust/reference/types/boolean.md)
-- [Rust Reference: if expressions](../../output/docs/rust/reference/expressions/if-expr.md)
-- [Rust Reference: numeric types](../../output/docs/rust/reference/types/numeric.md)
-- [Rust Reference: Array types](../../output/docs/rust/reference/types/array.md)
-- [Rust std: slice `len`](../../output/docs/rust/std/primitive.slice.md)
-- [Rust Reference: Array indexing expressions](../../output/docs/rust/reference/expressions/array-expr.md)
-- [Rust by Example: Variable Bindings](../../output/docs/rust/rust-by-example/variable_bindings.md)
+- [The Rust Book: Data Types](https://doc.rust-lang.org/stable/book/ch03-02-data-types.html)
+- [The Rust Book: Control Flow](https://doc.rust-lang.org/stable/book/ch03-05-control-flow.html)
+- [Rust Reference: Boolean type](https://doc.rust-lang.org/stable/reference/types/boolean.html)
+- [Rust Reference: if expressions](https://doc.rust-lang.org/stable/reference/expressions/if-expr.html)
+- [Rust Reference: numeric types](https://doc.rust-lang.org/stable/reference/types/numeric.html)
+- [Rust Reference: Array types](https://doc.rust-lang.org/stable/reference/types/array.html)
+- [Rust std: slice `len`](https://doc.rust-lang.org/stable/std/primitive.slice.html)
+- [Rust Reference: Array indexing expressions](https://doc.rust-lang.org/stable/reference/expressions/array-expr.html)
+- [Rust by Example: Variable Bindings](https://doc.rust-lang.org/stable/rust-by-example/variable_bindings.html)
 
 ## Related wiki pages
 

@@ -3,10 +3,10 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_static_str_return/src/main.rs
-  - output/docs/rust/error_codes/E0106.md
-  - output/docs/rust/reference/lifetime-elision.md
-  - output/docs/rust/book/ch10-03-lifetime-syntax.md
+  - experiments/hello_static_str_return/src/main.rs
+  - https://doc.rust-lang.org/stable/error_codes/E0106.html
+  - https://doc.rust-lang.org/stable/reference/lifetime-elision.html
+  - https://doc.rust-lang.org/stable/book/ch10-03-lifetime-syntax.html
 topic: rust-playground/compiler-error-e0106
 ---
 
@@ -62,9 +62,9 @@ information.
 
 ## Corpus references
 
-- [Rust error code E0106](../../output/docs/rust/error_codes/E0106.md)
-- [Rust Reference: Lifetime elision](../../output/docs/rust/reference/lifetime-elision.md)
-- [The Rust Book: The Static Lifetime](../../output/docs/rust/book/ch10-03-lifetime-syntax.md)
+- [Rust error code E0106](https://doc.rust-lang.org/stable/error_codes/E0106.html)
+- [Rust Reference: Lifetime elision](https://doc.rust-lang.org/stable/reference/lifetime-elision.html)
+- [The Rust Book: The Static Lifetime](https://doc.rust-lang.org/stable/book/ch10-03-lifetime-syntax.html)
 
 ## Related wiki pages
 

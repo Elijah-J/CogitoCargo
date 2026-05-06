@@ -3,13 +3,13 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_array_last_index_if/src/main.rs
-  - RustPlayground/experiments/hello_empty_array_last_index_error/src/main.rs
-  - RustPlayground/experiments/hello_empty_array_len/src/main.rs
-  - output/docs/rust/reference/expressions/operator-expr.md
-  - output/docs/rust/reference/behavior-not-considered-unsafe.md
-  - output/docs/rust/book/ch03-02-data-types.md
-  - output/docs/rust/std/primitive.usize.md
+  - experiments/hello_array_last_index_if/src/main.rs
+  - experiments/hello_empty_array_last_index_error/src/main.rs
+  - experiments/hello_empty_array_len/src/main.rs
+  - https://doc.rust-lang.org/stable/reference/expressions/operator-expr.html
+  - https://doc.rust-lang.org/stable/reference/behavior-not-considered-unsafe.html
+  - https://doc.rust-lang.org/stable/book/ch03-02-data-types.html
+  - https://doc.rust-lang.org/stable/std/primitive.usize.html
 topic: rust-playground/integer-overflow
 ---
 
@@ -77,10 +77,10 @@ For an empty array, the subtraction does not run.
 
 ## Corpus references
 
-- [Rust Reference: Operator overflow](../../output/docs/rust/reference/expressions/operator-expr.md)
-- [Rust Reference: Integer overflow](../../output/docs/rust/reference/behavior-not-considered-unsafe.md)
-- [The Rust Book: Integer Overflow](../../output/docs/rust/book/ch03-02-data-types.md)
-- [Rust std: `usize::checked_sub`](../../output/docs/rust/std/primitive.usize.md)
+- [Rust Reference: Operator overflow](https://doc.rust-lang.org/stable/reference/expressions/operator-expr.html)
+- [Rust Reference: Integer overflow](https://doc.rust-lang.org/stable/reference/behavior-not-considered-unsafe.html)
+- [The Rust Book: Integer Overflow](https://doc.rust-lang.org/stable/book/ch03-02-data-types.html)
+- [Rust std: `usize::checked_sub`](https://doc.rust-lang.org/stable/std/primitive.usize.html)
 
 ## Related wiki pages
 

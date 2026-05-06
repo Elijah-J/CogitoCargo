@@ -3,9 +3,9 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_scope_error/src/main.rs
-  - output/docs/rust/rust-by-example/variable_bindings/scope.md
-  - output/docs/rust/reference/names/scopes.md
+  - experiments/hello_scope_error/src/main.rs
+  - https://doc.rust-lang.org/stable/rust-by-example/variable_bindings/scope.html
+  - https://doc.rust-lang.org/stable/reference/names/scopes.html
 topic: rust-playground/compiler-error-e0425
 ---
 
@@ -65,8 +65,8 @@ brace needs some other binding in scope.
 
 ## Corpus references
 
-- [Rust by Example: Scope and Shadowing](../../output/docs/rust/rust-by-example/variable_bindings/scope.md)
-- [Rust Reference: Scopes](../../output/docs/rust/reference/names/scopes.md)
+- [Rust by Example: Scope and Shadowing](https://doc.rust-lang.org/stable/rust-by-example/variable_bindings/scope.html)
+- [Rust Reference: Scopes](https://doc.rust-lang.org/stable/reference/names/scopes.html)
 
 ## Related wiki pages
 

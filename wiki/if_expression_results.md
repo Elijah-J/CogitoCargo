@@ -3,12 +3,12 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_if_value/src/main.rs
-  - RustPlayground/experiments/hello_if_type_error/src/main.rs
-  - output/docs/rust/book/ch03-05-control-flow.md
-  - output/docs/rust/book/ch03-03-how-functions-work.md
-  - output/docs/rust/reference/expressions/if-expr.md
-  - output/docs/rust/reference/expressions/block-expr.md
+  - experiments/hello_if_value/src/main.rs
+  - experiments/hello_if_type_error/src/main.rs
+  - https://doc.rust-lang.org/stable/book/ch03-05-control-flow.html
+  - https://doc.rust-lang.org/stable/book/ch03-03-how-functions-work.html
+  - https://doc.rust-lang.org/stable/reference/expressions/if-expr.html
+  - https://doc.rust-lang.org/stable/reference/expressions/block-expr.html
 topic: rust-playground/if-expression-results
 ---
 
@@ -74,10 +74,10 @@ between branch value types produced [E0308](compiler_error_e0308.md) in
 
 ## Corpus references
 
-- [The Rust Book: Control Flow](../../output/docs/rust/book/ch03-05-control-flow.md)
-- [The Rust Book: Functions](../../output/docs/rust/book/ch03-03-how-functions-work.md)
-- [Rust Reference: if expressions](../../output/docs/rust/reference/expressions/if-expr.md)
-- [Rust Reference: block expressions](../../output/docs/rust/reference/expressions/block-expr.md)
+- [The Rust Book: Control Flow](https://doc.rust-lang.org/stable/book/ch03-05-control-flow.html)
+- [The Rust Book: Functions](https://doc.rust-lang.org/stable/book/ch03-03-how-functions-work.html)
+- [Rust Reference: if expressions](https://doc.rust-lang.org/stable/reference/expressions/if-expr.html)
+- [Rust Reference: block expressions](https://doc.rust-lang.org/stable/reference/expressions/block-expr.html)
 
 ## Related wiki pages
 

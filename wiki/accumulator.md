@@ -3,16 +3,16 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_array_sum/src/main.rs
-  - RustPlayground/experiments/hello_plus_equals/src/main.rs
-  - RustPlayground/experiments/hello_array_for/src/main.rs
-  - RustPlayground/experiments/hello_mutability/src/main.rs
-  - RustPlayground/experiments/hello_addition/src/main.rs
-  - output/docs/rust/book/ch03-01-variables-and-mutability.md
-  - output/docs/rust/book/ch03-02-data-types.md
-  - output/docs/rust/book/ch03-05-control-flow.md
-  - output/docs/rust/reference/expressions/operator-expr.md
-  - output/docs/rust/reference/expressions/loop-expr.md
+  - experiments/hello_array_sum/src/main.rs
+  - experiments/hello_plus_equals/src/main.rs
+  - experiments/hello_array_for/src/main.rs
+  - experiments/hello_mutability/src/main.rs
+  - experiments/hello_addition/src/main.rs
+  - https://doc.rust-lang.org/stable/book/ch03-01-variables-and-mutability.html
+  - https://doc.rust-lang.org/stable/book/ch03-02-data-types.html
+  - https://doc.rust-lang.org/stable/book/ch03-05-control-flow.html
+  - https://doc.rust-lang.org/stable/reference/expressions/operator-expr.html
+  - https://doc.rust-lang.org/stable/reference/expressions/loop-expr.html
 topic: rust-playground/accumulator
 ---
 
@@ -95,11 +95,11 @@ binding.
 
 ## Corpus references
 
-- [The Rust Book: Variables and Mutability](../../output/docs/rust/book/ch03-01-variables-and-mutability.md)
-- [The Rust Book: Data Types](../../output/docs/rust/book/ch03-02-data-types.md)
-- [The Rust Book: Control Flow](../../output/docs/rust/book/ch03-05-control-flow.md)
-- [Rust Reference: Operator expressions](../../output/docs/rust/reference/expressions/operator-expr.md)
-- [Rust Reference: `for` loops](../../output/docs/rust/reference/expressions/loop-expr.md)
+- [The Rust Book: Variables and Mutability](https://doc.rust-lang.org/stable/book/ch03-01-variables-and-mutability.html)
+- [The Rust Book: Data Types](https://doc.rust-lang.org/stable/book/ch03-02-data-types.html)
+- [The Rust Book: Control Flow](https://doc.rust-lang.org/stable/book/ch03-05-control-flow.html)
+- [Rust Reference: Operator expressions](https://doc.rust-lang.org/stable/reference/expressions/operator-expr.html)
+- [Rust Reference: `for` loops](https://doc.rust-lang.org/stable/reference/expressions/loop-expr.html)
 
 ## Related wiki pages
 

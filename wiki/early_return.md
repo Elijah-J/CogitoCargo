@@ -3,12 +3,12 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_early_return/src/main.rs
-  - output/docs/rust/book/ch03-03-how-functions-work.md
-  - output/docs/rust/book/ch03-05-control-flow.md
-  - output/docs/rust/reference/items/functions.md
-  - output/docs/rust/reference/expressions/return-expr.md
-  - output/docs/rust/reference/expressions/if-expr.md
+  - experiments/hello_early_return/src/main.rs
+  - https://doc.rust-lang.org/stable/book/ch03-03-how-functions-work.html
+  - https://doc.rust-lang.org/stable/book/ch03-05-control-flow.html
+  - https://doc.rust-lang.org/stable/reference/items/functions.html
+  - https://doc.rust-lang.org/stable/reference/expressions/return-expr.html
+  - https://doc.rust-lang.org/stable/reference/expressions/if-expr.html
 topic: rust-playground/early-return
 ---
 
@@ -64,11 +64,11 @@ just receives a returned value from the function call.
 
 ## Corpus references
 
-- [The Rust Book: Functions](../../output/docs/rust/book/ch03-03-how-functions-work.md)
-- [The Rust Book: Control Flow](../../output/docs/rust/book/ch03-05-control-flow.md)
-- [Rust Reference: functions](../../output/docs/rust/reference/items/functions.md)
-- [Rust Reference: return expressions](../../output/docs/rust/reference/expressions/return-expr.md)
-- [Rust Reference: if expressions](../../output/docs/rust/reference/expressions/if-expr.md)
+- [The Rust Book: Functions](https://doc.rust-lang.org/stable/book/ch03-03-how-functions-work.html)
+- [The Rust Book: Control Flow](https://doc.rust-lang.org/stable/book/ch03-05-control-flow.html)
+- [Rust Reference: functions](https://doc.rust-lang.org/stable/reference/items/functions.html)
+- [Rust Reference: return expressions](https://doc.rust-lang.org/stable/reference/expressions/return-expr.html)
+- [Rust Reference: if expressions](https://doc.rust-lang.org/stable/reference/expressions/if-expr.html)
 
 ## Related wiki pages
 

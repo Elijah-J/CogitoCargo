@@ -3,10 +3,10 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - output/docs/rust/rustc/what-is-rustc.md
-  - output/docs/rust/book/ch01-02-hello-world.md
-  - output/docs/rust/rustc/command-line-arguments.md
-  - output/docs/rust/book/ch01-03-hello-cargo.md
+  - https://doc.rust-lang.org/stable/rustc/what-is-rustc.html
+  - https://doc.rust-lang.org/stable/book/ch01-02-hello-world.html
+  - https://doc.rust-lang.org/stable/rustc/command-line-arguments.html
+  - https://doc.rust-lang.org/stable/book/ch01-03-hello-cargo.html
 topic: rust-playground/rustc-filename
 ---
 
@@ -50,10 +50,10 @@ once the project has a package layout, a `Cargo.toml`, and commands such as
 
 ## Corpus references
 
-- [The rustc book: What is rustc?](../../output/docs/rust/rustc/what-is-rustc.md)
-- [The Rust Book: Hello, World!](../../output/docs/rust/book/ch01-02-hello-world.md)
-- [The rustc book: Command-line Arguments](../../output/docs/rust/rustc/command-line-arguments.md)
-- [The Rust Book: Hello, Cargo!](../../output/docs/rust/book/ch01-03-hello-cargo.md)
+- [The rustc book: What is rustc?](https://doc.rust-lang.org/stable/rustc/what-is-rustc.html)
+- [The Rust Book: Hello, World!](https://doc.rust-lang.org/stable/book/ch01-02-hello-world.html)
+- [The rustc book: Command-line Arguments](https://doc.rust-lang.org/stable/rustc/command-line-arguments.html)
+- [The Rust Book: Hello, Cargo!](https://doc.rust-lang.org/stable/book/ch01-03-hello-cargo.html)
 
 ## Related wiki pages
 

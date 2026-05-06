@@ -3,14 +3,14 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_str_len_syntax/src/main.rs
-  - RustPlayground/experiments/hello_utf8_len/src/main.rs
-  - output/docs/rust/std/primitive.str.md
-  - output/docs/rust/reference/paths.md
-  - output/docs/rust/reference/expressions/path-expr.md
-  - output/docs/rust/reference/expressions/method-call-expr.md
-  - output/docs/rust/reference/items/associated-items.md
-  - output/docs/rust/book/ch05-03-method-syntax.md
+  - experiments/hello_str_len_syntax/src/main.rs
+  - experiments/hello_utf8_len/src/main.rs
+  - https://doc.rust-lang.org/stable/std/primitive.str.html
+  - https://doc.rust-lang.org/stable/reference/paths.html
+  - https://doc.rust-lang.org/stable/reference/expressions/path-expr.html
+  - https://doc.rust-lang.org/stable/reference/expressions/method-call-expr.html
+  - https://doc.rust-lang.org/stable/reference/items/associated-items.html
+  - https://doc.rust-lang.org/stable/book/ch05-03-method-syntax.html
 topic: rust-playground/str-len-syntax
 ---
 
@@ -94,12 +94,12 @@ introduced in this wiki.
 
 ## Corpus references
 
-- [Rust std: `str::len`](../../output/docs/rust/std/primitive.str.md)
-- [Rust Reference: paths](../../output/docs/rust/reference/paths.md)
-- [Rust Reference: path expressions](../../output/docs/rust/reference/expressions/path-expr.md)
-- [Rust Reference: method-call expressions](../../output/docs/rust/reference/expressions/method-call-expr.md)
-- [Rust Reference: associated functions and methods](../../output/docs/rust/reference/items/associated-items.md)
-- [The Rust Book: method syntax](../../output/docs/rust/book/ch05-03-method-syntax.md)
+- [Rust std: `str::len`](https://doc.rust-lang.org/stable/std/primitive.str.html)
+- [Rust Reference: paths](https://doc.rust-lang.org/stable/reference/paths.html)
+- [Rust Reference: path expressions](https://doc.rust-lang.org/stable/reference/expressions/path-expr.html)
+- [Rust Reference: method-call expressions](https://doc.rust-lang.org/stable/reference/expressions/method-call-expr.html)
+- [Rust Reference: associated functions and methods](https://doc.rust-lang.org/stable/reference/items/associated-items.html)
+- [The Rust Book: method syntax](https://doc.rust-lang.org/stable/book/ch05-03-method-syntax.html)
 
 ## Related wiki pages
 

@@ -3,10 +3,10 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - output/docs/rust/rust-by-example/variable_bindings.md
-  - output/docs/rust/rust-by-example/variable_bindings/mut.md
-  - output/docs/rust/rust-by-example/variable_bindings/scope.md
-  - output/docs/rust/book/ch03-01-variables-and-mutability.md
+  - https://doc.rust-lang.org/stable/rust-by-example/variable_bindings.html
+  - https://doc.rust-lang.org/stable/rust-by-example/variable_bindings/mut.html
+  - https://doc.rust-lang.org/stable/rust-by-example/variable_bindings/scope.html
+  - https://doc.rust-lang.org/stable/book/ch03-01-variables-and-mutability.html
 topic: rust-playground/bindings
 ---
 
@@ -60,10 +60,10 @@ block. In `hello_variables`, `hello_mutability`, `hello_shadowing`, and
 
 ## Corpus references
 
-- [Rust by Example: Variable Bindings](../../output/docs/rust/rust-by-example/variable_bindings.md)
-- [Rust by Example: Mutability](../../output/docs/rust/rust-by-example/variable_bindings/mut.md)
-- [Rust by Example: Scope and Shadowing](../../output/docs/rust/rust-by-example/variable_bindings/scope.md)
-- [The Rust Book: Variables and Mutability](../../output/docs/rust/book/ch03-01-variables-and-mutability.md)
+- [Rust by Example: Variable Bindings](https://doc.rust-lang.org/stable/rust-by-example/variable_bindings.html)
+- [Rust by Example: Mutability](https://doc.rust-lang.org/stable/rust-by-example/variable_bindings/mut.html)
+- [Rust by Example: Scope and Shadowing](https://doc.rust-lang.org/stable/rust-by-example/variable_bindings/scope.html)
+- [The Rust Book: Variables and Mutability](https://doc.rust-lang.org/stable/book/ch03-01-variables-and-mutability.html)
 
 ## Related wiki pages
 

@@ -3,14 +3,14 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_chars_next/src/main.rs
-  - RustPlayground/experiments/hello_utf8_chars_count/src/main.rs
-  - RustPlayground/experiments/hello_utf8_len/src/main.rs
-  - output/docs/rust/std/primitive.char.md
-  - output/docs/rust/std/primitive.str.md
-  - output/docs/rust/std/option/enum.Option.md
-  - output/docs/rust/reference/types/char.md
-  - output/docs/rust/book/ch08-02-strings.md
+  - experiments/hello_chars_next/src/main.rs
+  - experiments/hello_utf8_chars_count/src/main.rs
+  - experiments/hello_utf8_len/src/main.rs
+  - https://doc.rust-lang.org/stable/std/primitive.char.html
+  - https://doc.rust-lang.org/stable/std/primitive.str.html
+  - https://doc.rust-lang.org/stable/std/option/enum.Option.html
+  - https://doc.rust-lang.org/stable/reference/types/char.html
+  - https://doc.rust-lang.org/stable/book/ch08-02-strings.html
 topic: rust-playground/char
 ---
 
@@ -68,11 +68,11 @@ does not provide grapheme-cluster iteration.
 
 ## Corpus references
 
-- [Rust std: `char`](../../output/docs/rust/std/primitive.char.md)
-- [Rust Reference: `char`](../../output/docs/rust/reference/types/char.md)
-- [Rust std: `str::chars`](../../output/docs/rust/std/primitive.str.md)
-- [Rust std: `Option`](../../output/docs/rust/std/option/enum.Option.md)
-- [The Rust Book: bytes, scalar values, and grapheme clusters](../../output/docs/rust/book/ch08-02-strings.md)
+- [Rust std: `char`](https://doc.rust-lang.org/stable/std/primitive.char.html)
+- [Rust Reference: `char`](https://doc.rust-lang.org/stable/reference/types/char.html)
+- [Rust std: `str::chars`](https://doc.rust-lang.org/stable/std/primitive.str.html)
+- [Rust std: `Option`](https://doc.rust-lang.org/stable/std/option/enum.Option.html)
+- [The Rust Book: bytes, scalar values, and grapheme clusters](https://doc.rust-lang.org/stable/book/ch08-02-strings.html)
 
 ## Related wiki pages
 

@@ -3,15 +3,15 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_str_binding/src/main.rs
-  - RustPlayground/experiments/hello_utf8_literal/src/main.rs
-  - RustPlayground/experiments/hello_utf8_len/src/main.rs
-  - output/docs/mdn-glossary/ASCII.md
-  - output/docs/mdn-glossary/UTF-8.md
-  - output/docs/rust/reference/types/str.md
-  - output/docs/rust/reference/input-format.md
-  - output/docs/rust/reference/tokens.md
-  - output/docs/rust/reference/expressions/literal-expr.md
+  - experiments/hello_str_binding/src/main.rs
+  - experiments/hello_utf8_literal/src/main.rs
+  - experiments/hello_utf8_len/src/main.rs
+  - https://developer.mozilla.org/en-US/docs/Glossary/ASCII
+  - https://developer.mozilla.org/en-US/docs/Glossary/UTF-8
+  - https://doc.rust-lang.org/stable/reference/types/str.html
+  - https://doc.rust-lang.org/stable/reference/input-format.html
+  - https://doc.rust-lang.org/stable/reference/tokens.html
+  - https://doc.rust-lang.org/stable/reference/expressions/literal-expr.html
 topic: rust-playground/ascii
 ---
 
@@ -90,12 +90,12 @@ still be valid UTF-8.
 
 ## Corpus references
 
-- [MDN Glossary: ASCII](../../output/docs/mdn-glossary/ASCII.md)
-- [MDN Glossary: UTF-8](../../output/docs/mdn-glossary/UTF-8.md)
-- [Rust Reference: str](../../output/docs/rust/reference/types/str.md)
-- [Rust Reference: source encoding](../../output/docs/rust/reference/input-format.md)
-- [Rust Reference: tokens](../../output/docs/rust/reference/tokens.md)
-- [Rust Reference: string literal expressions](../../output/docs/rust/reference/expressions/literal-expr.md)
+- [MDN Glossary: ASCII](https://developer.mozilla.org/en-US/docs/Glossary/ASCII)
+- [MDN Glossary: UTF-8](https://developer.mozilla.org/en-US/docs/Glossary/UTF-8)
+- [Rust Reference: str](https://doc.rust-lang.org/stable/reference/types/str.html)
+- [Rust Reference: source encoding](https://doc.rust-lang.org/stable/reference/input-format.html)
+- [Rust Reference: tokens](https://doc.rust-lang.org/stable/reference/tokens.html)
+- [Rust Reference: string literal expressions](https://doc.rust-lang.org/stable/reference/expressions/literal-expr.html)
 
 ## Related wiki pages
 

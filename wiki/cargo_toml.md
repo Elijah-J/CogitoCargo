@@ -3,9 +3,9 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - output/docs/rust/cargo/reference/manifest.md
-  - output/docs/rust/book/ch01-03-hello-cargo.md
-  - output/docs/rust/cargo/guide/cargo-toml-vs-cargo-lock.md
+  - https://doc.rust-lang.org/stable/cargo/reference/manifest.html
+  - https://doc.rust-lang.org/stable/book/ch01-03-hello-cargo.html
+  - https://doc.rust-lang.org/stable/cargo/guide/cargo-toml-vs-cargo-lock.html
 topic: rust-playground/cargo-toml
 ---
 
@@ -59,9 +59,9 @@ versions after Cargo resolves them.
 
 ## Corpus references
 
-- [Cargo Reference: The Manifest Format](../../output/docs/rust/cargo/reference/manifest.md)
-- [The Rust Book: Hello, Cargo!](../../output/docs/rust/book/ch01-03-hello-cargo.md)
-- [Cargo Guide: Cargo.toml vs Cargo.lock](../../output/docs/rust/cargo/guide/cargo-toml-vs-cargo-lock.md)
+- [Cargo Reference: The Manifest Format](https://doc.rust-lang.org/stable/cargo/reference/manifest.html)
+- [The Rust Book: Hello, Cargo!](https://doc.rust-lang.org/stable/book/ch01-03-hello-cargo.html)
+- [Cargo Guide: Cargo.toml vs Cargo.lock](https://doc.rust-lang.org/stable/cargo/guide/cargo-toml-vs-cargo-lock.html)
 
 ## Related wiki pages
 

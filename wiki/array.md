@@ -3,20 +3,20 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_empty_array_last_index_error/src/main.rs
-  - RustPlayground/experiments/hello_empty_array_len/src/main.rs
-  - RustPlayground/experiments/hello_array_last_index/src/main.rs
-  - RustPlayground/experiments/hello_array_for/src/main.rs
-  - RustPlayground/experiments/hello_array_sum/src/main.rs
-  - RustPlayground/experiments/hello_array_index/src/main.rs
-  - RustPlayground/experiments/hello_array_index_error/src/main.rs
-  - RustPlayground/experiments/hello_array_len/src/main.rs
-  - output/docs/rust/std/primitive.array.md
-  - output/docs/rust/std/primitive.slice.md
-  - output/docs/rust/book/ch03-02-data-types.md
-  - output/docs/rust/reference/types/array.md
-  - output/docs/rust/reference/expressions/array-expr.md
-  - output/docs/rust/reference/expressions/loop-expr.md
+  - experiments/hello_empty_array_last_index_error/src/main.rs
+  - experiments/hello_empty_array_len/src/main.rs
+  - experiments/hello_array_last_index/src/main.rs
+  - experiments/hello_array_for/src/main.rs
+  - experiments/hello_array_sum/src/main.rs
+  - experiments/hello_array_index/src/main.rs
+  - experiments/hello_array_index_error/src/main.rs
+  - experiments/hello_array_len/src/main.rs
+  - https://doc.rust-lang.org/stable/std/primitive.array.html
+  - https://doc.rust-lang.org/stable/std/primitive.slice.html
+  - https://doc.rust-lang.org/stable/book/ch03-02-data-types.html
+  - https://doc.rust-lang.org/stable/reference/types/array.html
+  - https://doc.rust-lang.org/stable/reference/expressions/array-expr.html
+  - https://doc.rust-lang.org/stable/reference/expressions/loop-expr.html
 topic: rust-playground/array
 ---
 
@@ -177,12 +177,12 @@ topic.
 
 ## Corpus references
 
-- [The Rust Book: The Array Type](../../output/docs/rust/book/ch03-02-data-types.md)
-- [Rust std: array primitive](../../output/docs/rust/std/primitive.array.md)
-- [Rust std: slice `len`](../../output/docs/rust/std/primitive.slice.md)
-- [Rust Reference: Array types](../../output/docs/rust/reference/types/array.md)
-- [Rust Reference: Array expressions](../../output/docs/rust/reference/expressions/array-expr.md)
-- [Rust Reference: `for` loops](../../output/docs/rust/reference/expressions/loop-expr.md)
+- [The Rust Book: The Array Type](https://doc.rust-lang.org/stable/book/ch03-02-data-types.html)
+- [Rust std: array primitive](https://doc.rust-lang.org/stable/std/primitive.array.html)
+- [Rust std: slice `len`](https://doc.rust-lang.org/stable/std/primitive.slice.html)
+- [Rust Reference: Array types](https://doc.rust-lang.org/stable/reference/types/array.html)
+- [Rust Reference: Array expressions](https://doc.rust-lang.org/stable/reference/expressions/array-expr.html)
+- [Rust Reference: `for` loops](https://doc.rust-lang.org/stable/reference/expressions/loop-expr.html)
 
 ## Related wiki pages
 

@@ -3,15 +3,15 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - output/docs/rust/reference/tokens.md
-  - output/docs/rust/reference/expressions/literal-expr.md
-  - output/docs/rust/book/ch04-03-slices.md
-  - RustPlayground/experiments/hello_variables/src/main.rs
-  - RustPlayground/experiments/hello_str_binding/src/main.rs
-  - RustPlayground/experiments/hello_early_return/src/main.rs
-  - RustPlayground/experiments/hello_static_str_return/src/main.rs
-  - RustPlayground/experiments/hello_utf8_literal/src/main.rs
-  - RustPlayground/experiments/hello_utf8_len/src/main.rs
+  - https://doc.rust-lang.org/stable/reference/tokens.html
+  - https://doc.rust-lang.org/stable/reference/expressions/literal-expr.html
+  - https://doc.rust-lang.org/stable/book/ch04-03-slices.html
+  - experiments/hello_variables/src/main.rs
+  - experiments/hello_str_binding/src/main.rs
+  - experiments/hello_early_return/src/main.rs
+  - experiments/hello_static_str_return/src/main.rs
+  - experiments/hello_utf8_literal/src/main.rs
+  - experiments/hello_utf8_len/src/main.rs
 topic: rust-playground/string-literals
 ---
 
@@ -103,9 +103,9 @@ in the examples listed above.
 
 ## Corpus references
 
-- [Rust Reference: Tokens](../../output/docs/rust/reference/tokens.md)
-- [Rust Reference: Literal expressions](../../output/docs/rust/reference/expressions/literal-expr.md)
-- [The Rust Book: String slices](../../output/docs/rust/book/ch04-03-slices.md)
+- [Rust Reference: Tokens](https://doc.rust-lang.org/stable/reference/tokens.html)
+- [Rust Reference: Literal expressions](https://doc.rust-lang.org/stable/reference/expressions/literal-expr.html)
+- [The Rust Book: String slices](https://doc.rust-lang.org/stable/book/ch04-03-slices.html)
 
 ## Related wiki pages
 

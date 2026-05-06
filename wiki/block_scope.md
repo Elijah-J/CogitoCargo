@@ -3,12 +3,12 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_scope/src/main.rs
-  - RustPlayground/experiments/hello_if/src/main.rs
-  - output/docs/rust/rust-by-example/variable_bindings/scope.md
-  - output/docs/rust/book/ch03-01-variables-and-mutability.md
-  - output/docs/rust/book/ch03-05-control-flow.md
-  - output/docs/rust/reference/names/scopes.md
+  - experiments/hello_scope/src/main.rs
+  - experiments/hello_if/src/main.rs
+  - https://doc.rust-lang.org/stable/rust-by-example/variable_bindings/scope.html
+  - https://doc.rust-lang.org/stable/book/ch03-01-variables-and-mutability.html
+  - https://doc.rust-lang.org/stable/book/ch03-05-control-flow.html
+  - https://doc.rust-lang.org/stable/reference/names/scopes.html
 topic: rust-playground/block-scope
 ---
 
@@ -67,10 +67,10 @@ The braces contain the code that runs when the condition is true.
 
 ## Corpus references
 
-- [Rust by Example: Scope and Shadowing](../../output/docs/rust/rust-by-example/variable_bindings/scope.md)
-- [The Rust Book: Variables and Mutability](../../output/docs/rust/book/ch03-01-variables-and-mutability.md)
-- [The Rust Book: Control Flow](../../output/docs/rust/book/ch03-05-control-flow.md)
-- [Rust Reference: Scopes](../../output/docs/rust/reference/names/scopes.md)
+- [Rust by Example: Scope and Shadowing](https://doc.rust-lang.org/stable/rust-by-example/variable_bindings/scope.html)
+- [The Rust Book: Variables and Mutability](https://doc.rust-lang.org/stable/book/ch03-01-variables-and-mutability.html)
+- [The Rust Book: Control Flow](https://doc.rust-lang.org/stable/book/ch03-05-control-flow.html)
+- [Rust Reference: Scopes](https://doc.rust-lang.org/stable/reference/names/scopes.html)
 
 ## Related wiki pages
 

@@ -3,14 +3,14 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_array_last_index_if/src/main.rs
-  - RustPlayground/experiments/hello_comparison/src/main.rs
-  - RustPlayground/experiments/hello_more_comparisons/src/main.rs
-  - RustPlayground/experiments/hello_if/src/main.rs
-  - output/docs/rust/book/ch03-02-data-types.md
-  - output/docs/rust/book/ch03-05-control-flow.md
-  - output/docs/rust/reference/types/boolean.md
-  - output/docs/rust/rust-by-example/primitives.md
+  - experiments/hello_array_last_index_if/src/main.rs
+  - experiments/hello_comparison/src/main.rs
+  - experiments/hello_more_comparisons/src/main.rs
+  - experiments/hello_if/src/main.rs
+  - https://doc.rust-lang.org/stable/book/ch03-02-data-types.html
+  - https://doc.rust-lang.org/stable/book/ch03-05-control-flow.html
+  - https://doc.rust-lang.org/stable/reference/types/boolean.html
+  - https://doc.rust-lang.org/stable/rust-by-example/primitives.html
 topic: rust-playground/boolean-values
 ---
 
@@ -84,10 +84,10 @@ For an empty array, `numbers.len() > 0` evaluates to `false`.
 
 ## Corpus references
 
-- [The Rust Book: Data Types](../../output/docs/rust/book/ch03-02-data-types.md)
-- [The Rust Book: Control Flow](../../output/docs/rust/book/ch03-05-control-flow.md)
-- [Rust Reference: Boolean type](../../output/docs/rust/reference/types/boolean.md)
-- [Rust by Example: Primitives](../../output/docs/rust/rust-by-example/primitives.md)
+- [The Rust Book: Data Types](https://doc.rust-lang.org/stable/book/ch03-02-data-types.html)
+- [The Rust Book: Control Flow](https://doc.rust-lang.org/stable/book/ch03-05-control-flow.html)
+- [Rust Reference: Boolean type](https://doc.rust-lang.org/stable/reference/types/boolean.html)
+- [Rust by Example: Primitives](https://doc.rust-lang.org/stable/rust-by-example/primitives.html)
 
 ## Related wiki pages
 

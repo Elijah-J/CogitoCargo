@@ -3,10 +3,10 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_enum/src/main.rs
-  - RustPlayground/experiments/hello_chars_next/src/main.rs
-  - output/docs/rust/book/ch06-00-enums.md
-  - output/docs/rust/std/option/enum.Option.md
+  - experiments/hello_enum/src/main.rs
+  - experiments/hello_chars_next/src/main.rs
+  - https://doc.rust-lang.org/stable/book/ch06-00-enums.html
+  - https://doc.rust-lang.org/stable/std/option/enum.Option.html
 topic: rust-playground/enum
 ---
 
@@ -89,8 +89,8 @@ either `Some(char)` or `None`.
 
 ## Corpus references
 
-- [The Rust Book: Enums and Pattern Matching](../../output/docs/rust/book/ch06-00-enums.md)
-- [Rust std: `Option`](../../output/docs/rust/std/option/enum.Option.md)
+- [The Rust Book: Enums and Pattern Matching](https://doc.rust-lang.org/stable/book/ch06-00-enums.html)
+- [Rust std: `Option`](https://doc.rust-lang.org/stable/std/option/enum.Option.html)
 
 ## Related wiki pages
 

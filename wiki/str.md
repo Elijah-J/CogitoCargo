@@ -3,17 +3,17 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_str_binding/src/main.rs
-  - RustPlayground/experiments/hello_static_str_return/src/main.rs
-  - RustPlayground/experiments/hello_utf8_literal/src/main.rs
-  - RustPlayground/experiments/hello_utf8_len/src/main.rs
-  - RustPlayground/experiments/hello_utf8_chars_count/src/main.rs
-  - RustPlayground/experiments/hello_variables/src/main.rs
-  - output/docs/rust/std/primitive.str.md
-  - output/docs/rust/book/ch04-03-slices.md
-  - output/docs/rust/reference/types/str.md
-  - output/docs/rust/reference/expressions/literal-expr.md
-  - output/docs/rust/error_codes/E0106.md
+  - experiments/hello_str_binding/src/main.rs
+  - experiments/hello_static_str_return/src/main.rs
+  - experiments/hello_utf8_literal/src/main.rs
+  - experiments/hello_utf8_len/src/main.rs
+  - experiments/hello_utf8_chars_count/src/main.rs
+  - experiments/hello_variables/src/main.rs
+  - https://doc.rust-lang.org/stable/std/primitive.str.html
+  - https://doc.rust-lang.org/stable/book/ch04-03-slices.html
+  - https://doc.rust-lang.org/stable/reference/types/str.html
+  - https://doc.rust-lang.org/stable/reference/expressions/literal-expr.html
+  - https://doc.rust-lang.org/stable/error_codes/E0106.html
 topic: rust-playground/str
 ---
 
@@ -113,11 +113,11 @@ long the returned reference is valid.
 
 ## Corpus references
 
-- [Rust std: `str`](../../output/docs/rust/std/primitive.str.md)
-- [The Rust Book: String slices](../../output/docs/rust/book/ch04-03-slices.md)
-- [Rust Reference: str](../../output/docs/rust/reference/types/str.md)
-- [Rust Reference: literal expressions](../../output/docs/rust/reference/expressions/literal-expr.md)
-- [Rust error code E0106](../../output/docs/rust/error_codes/E0106.md)
+- [Rust std: `str`](https://doc.rust-lang.org/stable/std/primitive.str.html)
+- [The Rust Book: String slices](https://doc.rust-lang.org/stable/book/ch04-03-slices.html)
+- [Rust Reference: str](https://doc.rust-lang.org/stable/reference/types/str.html)
+- [Rust Reference: literal expressions](https://doc.rust-lang.org/stable/reference/expressions/literal-expr.html)
+- [Rust error code E0106](https://doc.rust-lang.org/stable/error_codes/E0106.html)
 
 ## Related wiki pages
 

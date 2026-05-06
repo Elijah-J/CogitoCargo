@@ -3,16 +3,16 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_empty_array_last_index_error/src/main.rs
-  - RustPlayground/experiments/hello_empty_array_len/src/main.rs
-  - RustPlayground/experiments/hello_array_last_index/src/main.rs
-  - RustPlayground/experiments/hello_array_index_error/src/main.rs
-  - RustPlayground/experiments/hello_array_index/src/main.rs
-  - RustPlayground/experiments/hello_array_len/src/main.rs
-  - output/docs/rust/std/primitive.array.md
-  - output/docs/rust/std/primitive.slice.md
-  - output/docs/rust/book/ch03-02-data-types.md
-  - output/docs/rust/reference/expressions/array-expr.md
+  - experiments/hello_empty_array_last_index_error/src/main.rs
+  - experiments/hello_empty_array_len/src/main.rs
+  - experiments/hello_array_last_index/src/main.rs
+  - experiments/hello_array_index_error/src/main.rs
+  - experiments/hello_array_index/src/main.rs
+  - experiments/hello_array_len/src/main.rs
+  - https://doc.rust-lang.org/stable/std/primitive.array.html
+  - https://doc.rust-lang.org/stable/std/primitive.slice.html
+  - https://doc.rust-lang.org/stable/book/ch03-02-data-types.html
+  - https://doc.rust-lang.org/stable/reference/expressions/array-expr.html
 topic: rust-playground/array-index-bounds
 ---
 
@@ -115,10 +115,10 @@ index can make the program panic at runtime.
 
 ## Corpus references
 
-- [The Rust Book: Invalid Array Element Access](../../output/docs/rust/book/ch03-02-data-types.md)
-- [Rust std: array primitive](../../output/docs/rust/std/primitive.array.md)
-- [Rust std: slice `len`](../../output/docs/rust/std/primitive.slice.md)
-- [Rust Reference: Array indexing expressions](../../output/docs/rust/reference/expressions/array-expr.md)
+- [The Rust Book: Invalid Array Element Access](https://doc.rust-lang.org/stable/book/ch03-02-data-types.html)
+- [Rust std: array primitive](https://doc.rust-lang.org/stable/std/primitive.array.html)
+- [Rust std: slice `len`](https://doc.rust-lang.org/stable/std/primitive.slice.html)
+- [Rust Reference: Array indexing expressions](https://doc.rust-lang.org/stable/reference/expressions/array-expr.html)
 
 ## Related wiki pages
 

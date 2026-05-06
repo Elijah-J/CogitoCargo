@@ -3,11 +3,11 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_array_last_index_if/src/main.rs
-  - RustPlayground/experiments/hello_else/src/main.rs
-  - output/docs/rust/book/ch03-05-control-flow.md
-  - output/docs/rust/reference/expressions/if-expr.md
-  - output/docs/rust/reference/types/boolean.md
+  - experiments/hello_array_last_index_if/src/main.rs
+  - experiments/hello_else/src/main.rs
+  - https://doc.rust-lang.org/stable/book/ch03-05-control-flow.html
+  - https://doc.rust-lang.org/stable/reference/expressions/if-expr.html
+  - https://doc.rust-lang.org/stable/reference/types/boolean.html
 topic: rust-playground/else-blocks
 ---
 
@@ -73,9 +73,9 @@ Plain `else` has no condition of its own. Additional checked conditions use
 
 ## Corpus references
 
-- [The Rust Book: Control Flow](../../output/docs/rust/book/ch03-05-control-flow.md)
-- [Rust Reference: if expressions](../../output/docs/rust/reference/expressions/if-expr.md)
-- [Rust Reference: Boolean type](../../output/docs/rust/reference/types/boolean.md)
+- [The Rust Book: Control Flow](https://doc.rust-lang.org/stable/book/ch03-05-control-flow.html)
+- [Rust Reference: if expressions](https://doc.rust-lang.org/stable/reference/expressions/if-expr.html)
+- [Rust Reference: Boolean type](https://doc.rust-lang.org/stable/reference/types/boolean.html)
 
 ## Related wiki pages
 

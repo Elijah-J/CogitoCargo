@@ -3,10 +3,10 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_plus_equals/src/main.rs
-  - RustPlayground/experiments/hello_array_sum/src/main.rs
-  - output/docs/rust/reference/expressions/operator-expr.md
-  - output/docs/rust/book/appendix-02-operators.md
+  - experiments/hello_plus_equals/src/main.rs
+  - experiments/hello_array_sum/src/main.rs
+  - https://doc.rust-lang.org/stable/reference/expressions/operator-expr.html
+  - https://doc.rust-lang.org/stable/book/appendix-02-operators.html
 topic: rust-playground/plus-equals
 ---
 
@@ -73,8 +73,8 @@ binding `total`. It does not create a new binding, so the line does not use
 
 ## Corpus references
 
-- [Rust Reference: Compound assignment expressions](../../output/docs/rust/reference/expressions/operator-expr.md)
-- [The Rust Book: Operators appendix](../../output/docs/rust/book/appendix-02-operators.md)
+- [Rust Reference: Compound assignment expressions](https://doc.rust-lang.org/stable/reference/expressions/operator-expr.html)
+- [The Rust Book: Operators appendix](https://doc.rust-lang.org/stable/book/appendix-02-operators.html)
 
 ## Related wiki pages
 

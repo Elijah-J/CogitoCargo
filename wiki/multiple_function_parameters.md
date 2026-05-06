@@ -3,11 +3,11 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_two_parameters/src/main.rs
-  - RustPlayground/experiments/hello_argument_order/src/main.rs
-  - output/docs/rust/book/ch03-03-how-functions-work.md
-  - output/docs/rust/reference/items/functions.md
-  - output/docs/rust/rust-by-example/fn.md
+  - experiments/hello_two_parameters/src/main.rs
+  - experiments/hello_argument_order/src/main.rs
+  - https://doc.rust-lang.org/stable/book/ch03-03-how-functions-work.html
+  - https://doc.rust-lang.org/stable/reference/items/functions.html
+  - https://doc.rust-lang.org/stable/rust-by-example/fn.html
 topic: rust-playground/multiple-function-parameters
 ---
 
@@ -67,9 +67,9 @@ function has `left` and `right`.
 
 ## Corpus references
 
-- [The Rust Book: Functions](../../output/docs/rust/book/ch03-03-how-functions-work.md)
-- [Rust Reference: functions](../../output/docs/rust/reference/items/functions.md)
-- [Rust by Example: Functions](../../output/docs/rust/rust-by-example/fn.md)
+- [The Rust Book: Functions](https://doc.rust-lang.org/stable/book/ch03-03-how-functions-work.html)
+- [Rust Reference: functions](https://doc.rust-lang.org/stable/reference/items/functions.html)
+- [Rust by Example: Functions](https://doc.rust-lang.org/stable/rust-by-example/fn.html)
 
 ## Related wiki pages
 

@@ -3,10 +3,10 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_enum/src/main.rs
-  - output/docs/rust/std/fmt/trait.Debug.md
-  - output/docs/rust/book/appendix-03-derivable-traits.md
-  - output/docs/rust/book/appendix-02-operators.md
+  - experiments/hello_enum/src/main.rs
+  - https://doc.rust-lang.org/stable/std/fmt/trait.Debug.html
+  - https://doc.rust-lang.org/stable/book/appendix-03-derivable-traits.html
+  - https://doc.rust-lang.org/stable/book/appendix-02-operators.html
 topic: rust-playground/derive-debug
 ---
 
@@ -59,9 +59,9 @@ and debugging tool, not as a stable text format.
 
 ## Corpus references
 
-- [Rust std: `Debug`](../../output/docs/rust/std/fmt/trait.Debug.md)
-- [The Rust Book: Derivable Traits](../../output/docs/rust/book/appendix-03-derivable-traits.md)
-- [The Rust Reference operator appendix: attributes](../../output/docs/rust/book/appendix-02-operators.md)
+- [Rust std: `Debug`](https://doc.rust-lang.org/stable/std/fmt/trait.Debug.html)
+- [The Rust Book: Derivable Traits](https://doc.rust-lang.org/stable/book/appendix-03-derivable-traits.html)
+- [The Rust Reference operator appendix: attributes](https://doc.rust-lang.org/stable/book/appendix-02-operators.html)
 
 ## Related wiki pages
 

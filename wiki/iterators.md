@@ -3,13 +3,13 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_chars_next/src/main.rs
-  - RustPlayground/experiments/hello_utf8_chars_count/src/main.rs
-  - output/docs/rust/book/ch13-02-iterators.md
-  - output/docs/rust/std/iter/trait.Iterator.md
-  - output/docs/rust/std/option/enum.Option.md
-  - output/docs/rust/std/primitive.str.md
-  - output/docs/rust/std/str/struct.Chars.md
+  - experiments/hello_chars_next/src/main.rs
+  - experiments/hello_utf8_chars_count/src/main.rs
+  - https://doc.rust-lang.org/stable/book/ch13-02-iterators.html
+  - https://doc.rust-lang.org/stable/std/iter/trait.Iterator.html
+  - https://doc.rust-lang.org/stable/std/option/enum.Option.html
+  - https://doc.rust-lang.org/stable/std/primitive.str.html
+  - https://doc.rust-lang.org/stable/std/str/struct.Chars.html
 topic: rust-playground/iterators
 ---
 
@@ -79,11 +79,11 @@ topics.
 
 ## Corpus references
 
-- [The Rust Book: iterators](../../output/docs/rust/book/ch13-02-iterators.md)
-- [Rust std: `Iterator`](../../output/docs/rust/std/iter/trait.Iterator.md)
-- [Rust std: `Option`](../../output/docs/rust/std/option/enum.Option.md)
-- [Rust std: `str::chars`](../../output/docs/rust/std/primitive.str.md)
-- [Rust std: `Chars`](../../output/docs/rust/std/str/struct.Chars.md)
+- [The Rust Book: iterators](https://doc.rust-lang.org/stable/book/ch13-02-iterators.html)
+- [Rust std: `Iterator`](https://doc.rust-lang.org/stable/std/iter/trait.Iterator.html)
+- [Rust std: `Option`](https://doc.rust-lang.org/stable/std/option/enum.Option.html)
+- [Rust std: `str::chars`](https://doc.rust-lang.org/stable/std/primitive.str.html)
+- [Rust std: `Chars`](https://doc.rust-lang.org/stable/std/str/struct.Chars.html)
 
 ## Related wiki pages
 

@@ -3,9 +3,9 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_shadowing/src/main.rs
-  - output/docs/rust/book/ch03-01-variables-and-mutability.md
-  - output/docs/rust/rust-by-example/variable_bindings/scope.md
+  - experiments/hello_shadowing/src/main.rs
+  - https://doc.rust-lang.org/stable/book/ch03-01-variables-and-mutability.html
+  - https://doc.rust-lang.org/stable/rust-by-example/variable_bindings/scope.html
 topic: rust-playground/shadowing
 ---
 
@@ -54,8 +54,8 @@ second `let`, it is trying to assign to the existing binding instead.
 
 ## Corpus references
 
-- [The Rust Book: Variables and Mutability](../../output/docs/rust/book/ch03-01-variables-and-mutability.md)
-- [Rust by Example: Scope and Shadowing](../../output/docs/rust/rust-by-example/variable_bindings/scope.md)
+- [The Rust Book: Variables and Mutability](https://doc.rust-lang.org/stable/book/ch03-01-variables-and-mutability.html)
+- [Rust by Example: Scope and Shadowing](https://doc.rust-lang.org/stable/rust-by-example/variable_bindings/scope.html)
 
 ## Related wiki pages
 

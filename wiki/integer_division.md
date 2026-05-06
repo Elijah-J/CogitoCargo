@@ -3,9 +3,9 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_division/src/main.rs
-  - output/docs/rust/book/ch03-02-data-types.md
-  - output/docs/rust/reference/expressions/operator-expr.md
+  - experiments/hello_division/src/main.rs
+  - https://doc.rust-lang.org/stable/book/ch03-02-data-types.html
+  - https://doc.rust-lang.org/stable/reference/expressions/operator-expr.html
 topic: rust-playground/integer-division
 ---
 
@@ -45,8 +45,8 @@ part of truncation. `hello_division` only uses positive integers.
 
 ## Corpus references
 
-- [The Rust Book: Data Types](../../output/docs/rust/book/ch03-02-data-types.md)
-- [Rust Reference: Operator expressions](../../output/docs/rust/reference/expressions/operator-expr.md)
+- [The Rust Book: Data Types](https://doc.rust-lang.org/stable/book/ch03-02-data-types.html)
+- [Rust Reference: Operator expressions](https://doc.rust-lang.org/stable/reference/expressions/operator-expr.html)
 
 ## Related wiki pages
 

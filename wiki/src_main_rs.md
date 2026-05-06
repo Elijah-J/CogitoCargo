@@ -3,10 +3,10 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - output/docs/rust/book/ch01-03-hello-cargo.md
-  - output/docs/rust/cargo/guide/project-layout.md
-  - output/docs/rust/cargo/reference/cargo-targets.md
-  - output/docs/rust/book/ch01-02-hello-world.md
+  - https://doc.rust-lang.org/stable/book/ch01-03-hello-cargo.html
+  - https://doc.rust-lang.org/stable/cargo/guide/project-layout.html
+  - https://doc.rust-lang.org/stable/cargo/reference/cargo-targets.html
+  - https://doc.rust-lang.org/stable/book/ch01-02-hello-world.html
 topic: rust-playground/src-main-rs
 ---
 
@@ -51,10 +51,10 @@ directly. Cargo uses the package layout and `Cargo.toml` to find `src/main.rs`.
 
 ## Corpus references
 
-- [The Rust Book: Hello, Cargo!](../../output/docs/rust/book/ch01-03-hello-cargo.md)
-- [Cargo Book: Package Layout](../../output/docs/rust/cargo/guide/project-layout.md)
-- [Cargo Book: Cargo Targets](../../output/docs/rust/cargo/reference/cargo-targets.md)
-- [The Rust Book: Hello, World!](../../output/docs/rust/book/ch01-02-hello-world.md)
+- [The Rust Book: Hello, Cargo!](https://doc.rust-lang.org/stable/book/ch01-03-hello-cargo.html)
+- [Cargo Book: Package Layout](https://doc.rust-lang.org/stable/cargo/guide/project-layout.html)
+- [Cargo Book: Cargo Targets](https://doc.rust-lang.org/stable/cargo/reference/cargo-targets.html)
+- [The Rust Book: Hello, World!](https://doc.rust-lang.org/stable/book/ch01-02-hello-world.html)
 
 ## Related wiki pages
 

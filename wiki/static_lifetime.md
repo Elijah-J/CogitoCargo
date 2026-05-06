@@ -3,11 +3,11 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_static_str_return/src/main.rs
-  - output/docs/rust/book/ch10-03-lifetime-syntax.md
-  - output/docs/rust/reference/expressions/literal-expr.md
-  - output/docs/rust/book/ch04-03-slices.md
-  - output/docs/rust/error_codes/E0106.md
+  - experiments/hello_static_str_return/src/main.rs
+  - https://doc.rust-lang.org/stable/book/ch10-03-lifetime-syntax.html
+  - https://doc.rust-lang.org/stable/reference/expressions/literal-expr.html
+  - https://doc.rust-lang.org/stable/book/ch04-03-slices.html
+  - https://doc.rust-lang.org/stable/error_codes/E0106.html
 topic: rust-playground/static-lifetime
 ---
 
@@ -66,10 +66,10 @@ string literals.
 
 ## Corpus references
 
-- [The Rust Book: The Static Lifetime](../../output/docs/rust/book/ch10-03-lifetime-syntax.md)
-- [Rust Reference: String literal expressions](../../output/docs/rust/reference/expressions/literal-expr.md)
-- [The Rust Book: String literals as slices](../../output/docs/rust/book/ch04-03-slices.md)
-- [Rust error code E0106](../../output/docs/rust/error_codes/E0106.md)
+- [The Rust Book: The Static Lifetime](https://doc.rust-lang.org/stable/book/ch10-03-lifetime-syntax.html)
+- [Rust Reference: String literal expressions](https://doc.rust-lang.org/stable/reference/expressions/literal-expr.html)
+- [The Rust Book: String literals as slices](https://doc.rust-lang.org/stable/book/ch04-03-slices.html)
+- [Rust error code E0106](https://doc.rust-lang.org/stable/error_codes/E0106.html)
 
 ## Related wiki pages
 

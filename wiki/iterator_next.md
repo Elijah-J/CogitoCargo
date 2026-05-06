@@ -3,11 +3,11 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_chars_next/src/main.rs
-  - output/docs/rust/std/iter/trait.Iterator.md
-  - output/docs/rust/book/ch13-02-iterators.md
-  - output/docs/rust/std/str/struct.Chars.md
-  - output/docs/rust/std/option/enum.Option.md
+  - experiments/hello_chars_next/src/main.rs
+  - https://doc.rust-lang.org/stable/std/iter/trait.Iterator.html
+  - https://doc.rust-lang.org/stable/book/ch13-02-iterators.html
+  - https://doc.rust-lang.org/stable/std/str/struct.Chars.html
+  - https://doc.rust-lang.org/stable/std/option/enum.Option.html
 topic: rust-playground/iterator-next
 ---
 
@@ -77,10 +77,10 @@ created an iterator whose item type is `char`.
 
 ## Corpus references
 
-- [Rust std: `Iterator::next`](../../output/docs/rust/std/iter/trait.Iterator.md)
-- [The Rust Book: the `Iterator` trait and the `next` method](../../output/docs/rust/book/ch13-02-iterators.md)
-- [Rust std: `Chars`](../../output/docs/rust/std/str/struct.Chars.md)
-- [Rust std: `Option`](../../output/docs/rust/std/option/enum.Option.md)
+- [Rust std: `Iterator::next`](https://doc.rust-lang.org/stable/std/iter/trait.Iterator.html)
+- [The Rust Book: the `Iterator` trait and the `next` method](https://doc.rust-lang.org/stable/book/ch13-02-iterators.html)
+- [Rust std: `Chars`](https://doc.rust-lang.org/stable/std/str/struct.Chars.html)
+- [Rust std: `Option`](https://doc.rust-lang.org/stable/std/option/enum.Option.html)
 
 ## Related wiki pages
 

@@ -3,14 +3,14 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_variables/src/main.rs
-  - RustPlayground/experiments/hello_addition/src/main.rs
-  - RustPlayground/experiments/hello_if_value/src/main.rs
-  - RustPlayground/experiments/hello_type_annotation/src/main.rs
-  - output/docs/rust/book/ch03-01-variables-and-mutability.md
-  - output/docs/rust/book/ch03-03-how-functions-work.md
-  - output/docs/rust/book/ch03-05-control-flow.md
-  - output/docs/rust/reference/statements.md
+  - experiments/hello_variables/src/main.rs
+  - experiments/hello_addition/src/main.rs
+  - experiments/hello_if_value/src/main.rs
+  - experiments/hello_type_annotation/src/main.rs
+  - https://doc.rust-lang.org/stable/book/ch03-01-variables-and-mutability.html
+  - https://doc.rust-lang.org/stable/book/ch03-03-how-functions-work.html
+  - https://doc.rust-lang.org/stable/book/ch03-05-control-flow.html
+  - https://doc.rust-lang.org/stable/reference/statements.html
 topic: rust-playground/let-binding
 ---
 
@@ -77,10 +77,10 @@ statement.
 
 ## Corpus references
 
-- [The Rust Book: Variables and Mutability](../../output/docs/rust/book/ch03-01-variables-and-mutability.md)
-- [The Rust Book: Functions](../../output/docs/rust/book/ch03-03-how-functions-work.md)
-- [The Rust Book: Control Flow](../../output/docs/rust/book/ch03-05-control-flow.md)
-- [Rust Reference: statements](../../output/docs/rust/reference/statements.md)
+- [The Rust Book: Variables and Mutability](https://doc.rust-lang.org/stable/book/ch03-01-variables-and-mutability.html)
+- [The Rust Book: Functions](https://doc.rust-lang.org/stable/book/ch03-03-how-functions-work.html)
+- [The Rust Book: Control Flow](https://doc.rust-lang.org/stable/book/ch03-05-control-flow.html)
+- [Rust Reference: statements](https://doc.rust-lang.org/stable/reference/statements.html)
 
 ## Related wiki pages
 

@@ -3,8 +3,8 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - output/docs/rust/book/ch01-03-hello-cargo.md
-  - output/docs/rust/cargo/reference/build-cache.md
+  - https://doc.rust-lang.org/stable/book/ch01-03-hello-cargo.html
+  - https://doc.rust-lang.org/stable/cargo/reference/build-cache.html
 topic: rust-playground/target-directory
 ---
 
@@ -51,8 +51,8 @@ Cargo, so it is not part of the hand-written `hello_cargo` source.
 
 ## Corpus references
 
-- [The Rust Book: Hello, Cargo!](../../output/docs/rust/book/ch01-03-hello-cargo.md)
-- [Cargo Reference: Build cache](../../output/docs/rust/cargo/reference/build-cache.md)
+- [The Rust Book: Hello, Cargo!](https://doc.rust-lang.org/stable/book/ch01-03-hello-cargo.html)
+- [Cargo Reference: Build cache](https://doc.rust-lang.org/stable/cargo/reference/build-cache.html)
 
 ## Related wiki pages
 

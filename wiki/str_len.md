@@ -3,20 +3,20 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_array_len/src/main.rs
-  - RustPlayground/experiments/hello_str_len_syntax/src/main.rs
-  - RustPlayground/experiments/hello_utf8_chars_count/src/main.rs
-  - RustPlayground/experiments/hello_utf8_len/src/main.rs
-  - RustPlayground/experiments/hello_utf8_literal/src/main.rs
-  - output/docs/rust/std/primitive.array.md
-  - output/docs/rust/std/primitive.slice.md
-  - output/docs/rust/std/primitive.str.md
-  - output/docs/rust/std/primitive.char.md
-  - output/docs/rust/std/iter/trait.Iterator.md
-  - output/docs/rust/reference/types/str.md
-  - output/docs/rust/book/ch08-02-strings.md
-  - output/docs/mdn-glossary/ASCII.md
-  - output/docs/mdn-glossary/UTF-8.md
+  - experiments/hello_array_len/src/main.rs
+  - experiments/hello_str_len_syntax/src/main.rs
+  - experiments/hello_utf8_chars_count/src/main.rs
+  - experiments/hello_utf8_len/src/main.rs
+  - experiments/hello_utf8_literal/src/main.rs
+  - https://doc.rust-lang.org/stable/std/primitive.array.html
+  - https://doc.rust-lang.org/stable/std/primitive.slice.html
+  - https://doc.rust-lang.org/stable/std/primitive.str.html
+  - https://doc.rust-lang.org/stable/std/primitive.char.html
+  - https://doc.rust-lang.org/stable/std/iter/trait.Iterator.html
+  - https://doc.rust-lang.org/stable/reference/types/str.html
+  - https://doc.rust-lang.org/stable/book/ch08-02-strings.html
+  - https://developer.mozilla.org/en-US/docs/Glossary/ASCII
+  - https://developer.mozilla.org/en-US/docs/Glossary/UTF-8
 topic: rust-playground/str-len
 ---
 
@@ -90,15 +90,15 @@ iterating through raw bytes are still separate topics.
 
 ## Corpus references
 
-- [Rust std: array primitive](../../output/docs/rust/std/primitive.array.md)
-- [Rust std: slice `len`](../../output/docs/rust/std/primitive.slice.md)
-- [Rust std: `str::len`](../../output/docs/rust/std/primitive.str.md)
-- [Rust std: `char`](../../output/docs/rust/std/primitive.char.md)
-- [Rust std: `Iterator::count`](../../output/docs/rust/std/iter/trait.Iterator.md)
-- [Rust Reference: `str`](../../output/docs/rust/reference/types/str.md)
-- [The Rust Book: bytes and UTF-8 strings](../../output/docs/rust/book/ch08-02-strings.md)
-- [MDN Glossary: ASCII](../../output/docs/mdn-glossary/ASCII.md)
-- [MDN Glossary: UTF-8](../../output/docs/mdn-glossary/UTF-8.md)
+- [Rust std: array primitive](https://doc.rust-lang.org/stable/std/primitive.array.html)
+- [Rust std: slice `len`](https://doc.rust-lang.org/stable/std/primitive.slice.html)
+- [Rust std: `str::len`](https://doc.rust-lang.org/stable/std/primitive.str.html)
+- [Rust std: `char`](https://doc.rust-lang.org/stable/std/primitive.char.html)
+- [Rust std: `Iterator::count`](https://doc.rust-lang.org/stable/std/iter/trait.Iterator.html)
+- [Rust Reference: `str`](https://doc.rust-lang.org/stable/reference/types/str.html)
+- [The Rust Book: bytes and UTF-8 strings](https://doc.rust-lang.org/stable/book/ch08-02-strings.html)
+- [MDN Glossary: ASCII](https://developer.mozilla.org/en-US/docs/Glossary/ASCII)
+- [MDN Glossary: UTF-8](https://developer.mozilla.org/en-US/docs/Glossary/UTF-8)
 
 ## Related wiki pages
 

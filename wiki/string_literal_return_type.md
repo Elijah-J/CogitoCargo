@@ -3,12 +3,12 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_early_return/src/main.rs
-  - RustPlayground/experiments/hello_static_str_return/src/main.rs
-  - output/docs/rust/reference/expressions/literal-expr.md
-  - output/docs/rust/book/ch04-03-slices.md
-  - output/docs/rust/reference/types/str.md
-  - output/docs/rust/error_codes/E0106.md
+  - experiments/hello_early_return/src/main.rs
+  - experiments/hello_static_str_return/src/main.rs
+  - https://doc.rust-lang.org/stable/reference/expressions/literal-expr.html
+  - https://doc.rust-lang.org/stable/book/ch04-03-slices.html
+  - https://doc.rust-lang.org/stable/reference/types/str.html
+  - https://doc.rust-lang.org/stable/error_codes/E0106.html
 topic: rust-playground/string-literal-return-type
 ---
 
@@ -76,10 +76,10 @@ returned by the function.
 
 ## Corpus references
 
-- [Rust Reference: literal expressions](../../output/docs/rust/reference/expressions/literal-expr.md)
-- [The Rust Book: String slices](../../output/docs/rust/book/ch04-03-slices.md)
-- [Rust Reference: str](../../output/docs/rust/reference/types/str.md)
-- [Rust error code E0106](../../output/docs/rust/error_codes/E0106.md)
+- [Rust Reference: literal expressions](https://doc.rust-lang.org/stable/reference/expressions/literal-expr.html)
+- [The Rust Book: String slices](https://doc.rust-lang.org/stable/book/ch04-03-slices.html)
+- [Rust Reference: str](https://doc.rust-lang.org/stable/reference/types/str.html)
+- [Rust error code E0106](https://doc.rust-lang.org/stable/error_codes/E0106.html)
 
 ## Related wiki pages
 

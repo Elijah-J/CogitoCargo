@@ -3,18 +3,18 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_empty_array_len/src/main.rs
-  - RustPlayground/experiments/hello_integer/src/main.rs
-  - RustPlayground/experiments/hello_type_annotation/src/main.rs
-  - RustPlayground/experiments/hello_addition/src/main.rs
-  - RustPlayground/experiments/hello_division/src/main.rs
-  - RustPlayground/experiments/hello_subtract_multiply/src/main.rs
-  - RustPlayground/experiments/hello_array_for/src/main.rs
-  - RustPlayground/experiments/hello_array_index/src/main.rs
-  - output/docs/rust/book/ch03-02-data-types.md
-  - output/docs/rust/rust-by-example/types/literals.md
-  - output/docs/rust/reference/tokens.md
-  - output/docs/rust/reference/expressions/literal-expr.md
+  - experiments/hello_empty_array_len/src/main.rs
+  - experiments/hello_integer/src/main.rs
+  - experiments/hello_type_annotation/src/main.rs
+  - experiments/hello_addition/src/main.rs
+  - experiments/hello_division/src/main.rs
+  - experiments/hello_subtract_multiply/src/main.rs
+  - experiments/hello_array_for/src/main.rs
+  - experiments/hello_array_index/src/main.rs
+  - https://doc.rust-lang.org/stable/book/ch03-02-data-types.html
+  - https://doc.rust-lang.org/stable/rust-by-example/types/literals.html
+  - https://doc.rust-lang.org/stable/reference/tokens.html
+  - https://doc.rust-lang.org/stable/reference/expressions/literal-expr.html
 topic: rust-playground/integer-literals
 ---
 
@@ -129,10 +129,10 @@ An integer literal is different from a string literal. `3` is a number literal;
 
 ## Corpus references
 
-- [The Rust Book: Data Types](../../output/docs/rust/book/ch03-02-data-types.md)
-- [Rust by Example: Literals](../../output/docs/rust/rust-by-example/types/literals.md)
-- [Rust Reference: Tokens](../../output/docs/rust/reference/tokens.md)
-- [Rust Reference: Literal expressions](../../output/docs/rust/reference/expressions/literal-expr.md)
+- [The Rust Book: Data Types](https://doc.rust-lang.org/stable/book/ch03-02-data-types.html)
+- [Rust by Example: Literals](https://doc.rust-lang.org/stable/rust-by-example/types/literals.html)
+- [Rust Reference: Tokens](https://doc.rust-lang.org/stable/reference/tokens.html)
+- [Rust Reference: Literal expressions](https://doc.rust-lang.org/stable/reference/expressions/literal-expr.html)
 
 ## Related wiki pages
 

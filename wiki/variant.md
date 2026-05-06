@@ -3,11 +3,11 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_enum/src/main.rs
-  - RustPlayground/experiments/hello_chars_next/src/main.rs
-  - RustPlayground/experiments/hello_match/src/main.rs
-  - output/docs/rust/book/ch06-01-defining-an-enum.md
-  - output/docs/rust/reference/items/enumerations.md
+  - experiments/hello_enum/src/main.rs
+  - experiments/hello_chars_next/src/main.rs
+  - experiments/hello_match/src/main.rs
+  - https://doc.rust-lang.org/stable/book/ch06-01-defining-an-enum.html
+  - https://doc.rust-lang.org/stable/reference/items/enumerations.html
 topic: rust-playground/variant
 ---
 
@@ -85,8 +85,8 @@ variants are the possible forms values of that type can take.
 
 ## Corpus references
 
-- [The Rust Book: Defining an Enum](../../output/docs/rust/book/ch06-01-defining-an-enum.md)
-- [Rust Reference: Enumerations](../../output/docs/rust/reference/items/enumerations.md)
+- [The Rust Book: Defining an Enum](https://doc.rust-lang.org/stable/book/ch06-01-defining-an-enum.html)
+- [Rust Reference: Enumerations](https://doc.rust-lang.org/stable/reference/items/enumerations.html)
 
 ## Related wiki pages
 

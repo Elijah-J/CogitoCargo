@@ -3,14 +3,14 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_variables/src/main.rs
-  - RustPlayground/experiments/hello_integer/src/main.rs
-  - RustPlayground/experiments/hello_comparison/src/main.rs
-  - RustPlayground/experiments/hello_array_for/src/main.rs
-  - output/docs/rust/reference/expressions/literal-expr.md
-  - output/docs/rust/reference/expressions/array-expr.md
-  - output/docs/rust/book/ch03-02-data-types.md
-  - output/docs/rust/rust-by-example/types/literals.md
+  - experiments/hello_variables/src/main.rs
+  - experiments/hello_integer/src/main.rs
+  - experiments/hello_comparison/src/main.rs
+  - experiments/hello_array_for/src/main.rs
+  - https://doc.rust-lang.org/stable/reference/expressions/literal-expr.html
+  - https://doc.rust-lang.org/stable/reference/expressions/array-expr.html
+  - https://doc.rust-lang.org/stable/book/ch03-02-data-types.html
+  - https://doc.rust-lang.org/stable/rust-by-example/types/literals.html
 topic: rust-playground/literals
 ---
 
@@ -71,10 +71,10 @@ array expression, not a single-token literal expression.
 
 ## Corpus references
 
-- [Rust Reference: literal expressions](../../output/docs/rust/reference/expressions/literal-expr.md)
-- [Rust Reference: array expressions](../../output/docs/rust/reference/expressions/array-expr.md)
-- [The Rust Book: Data Types](../../output/docs/rust/book/ch03-02-data-types.md)
-- [Rust by Example: Literals](../../output/docs/rust/rust-by-example/types/literals.md)
+- [Rust Reference: literal expressions](https://doc.rust-lang.org/stable/reference/expressions/literal-expr.html)
+- [Rust Reference: array expressions](https://doc.rust-lang.org/stable/reference/expressions/array-expr.html)
+- [The Rust Book: Data Types](https://doc.rust-lang.org/stable/book/ch03-02-data-types.html)
+- [Rust by Example: Literals](https://doc.rust-lang.org/stable/rust-by-example/types/literals.html)
 
 ## Related wiki pages
 

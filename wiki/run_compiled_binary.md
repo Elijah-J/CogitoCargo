@@ -3,9 +3,9 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - output/docs/rust/book/ch01-02-hello-world.md
-  - output/docs/rust/book/ch01-03-hello-cargo.md
-  - output/docs/rust/cargo/commands/cargo-run.md
+  - https://doc.rust-lang.org/stable/book/ch01-02-hello-world.html
+  - https://doc.rust-lang.org/stable/book/ch01-03-hello-cargo.html
+  - https://doc.rust-lang.org/stable/cargo/commands/cargo-run.html
 topic: rust-playground/run-compiled-binary
 ---
 
@@ -53,9 +53,9 @@ compiled binaries.
 
 ## Corpus references
 
-- [The Rust Book: Hello, World!](../../output/docs/rust/book/ch01-02-hello-world.md)
-- [The Rust Book: Hello, Cargo!](../../output/docs/rust/book/ch01-03-hello-cargo.md)
-- [Cargo Book: cargo-run](../../output/docs/rust/cargo/commands/cargo-run.md)
+- [The Rust Book: Hello, World!](https://doc.rust-lang.org/stable/book/ch01-02-hello-world.html)
+- [The Rust Book: Hello, Cargo!](https://doc.rust-lang.org/stable/book/ch01-03-hello-cargo.html)
+- [Cargo Book: cargo-run](https://doc.rust-lang.org/stable/cargo/commands/cargo-run.html)
 
 ## Related wiki pages
 

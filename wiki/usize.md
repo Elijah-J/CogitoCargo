@@ -3,15 +3,15 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - RustPlayground/experiments/hello_empty_array_last_index_error/src/main.rs
-  - RustPlayground/experiments/hello_array_last_index/src/main.rs
-  - RustPlayground/experiments/hello_array_len/src/main.rs
-  - output/docs/rust/std/primitive.usize.md
-  - output/docs/rust/std/primitive.slice.md
-  - output/docs/rust/reference/expressions/array-expr.md
-  - output/docs/rust/reference/types/numeric.md
-  - output/docs/rust/book/ch03-02-data-types.md
-  - output/docs/rust/reference/expressions/operator-expr.md
+  - experiments/hello_empty_array_last_index_error/src/main.rs
+  - experiments/hello_array_last_index/src/main.rs
+  - experiments/hello_array_len/src/main.rs
+  - https://doc.rust-lang.org/stable/std/primitive.usize.html
+  - https://doc.rust-lang.org/stable/std/primitive.slice.html
+  - https://doc.rust-lang.org/stable/reference/expressions/array-expr.html
+  - https://doc.rust-lang.org/stable/reference/types/numeric.html
+  - https://doc.rust-lang.org/stable/book/ch03-02-data-types.html
+  - https://doc.rust-lang.org/stable/reference/expressions/operator-expr.html
 topic: rust-playground/usize
 ---
 
@@ -79,12 +79,12 @@ and panics in debug mode.
 
 ## Corpus references
 
-- [Rust std: `usize`](../../output/docs/rust/std/primitive.usize.md)
-- [Rust std: slice `len`](../../output/docs/rust/std/primitive.slice.md)
-- [Rust Reference: Array indexing expressions](../../output/docs/rust/reference/expressions/array-expr.md)
-- [Rust Reference: numeric types](../../output/docs/rust/reference/types/numeric.md)
-- [The Rust Book: Data Types](../../output/docs/rust/book/ch03-02-data-types.md)
-- [Rust Reference: Operator overflow](../../output/docs/rust/reference/expressions/operator-expr.md)
+- [Rust std: `usize`](https://doc.rust-lang.org/stable/std/primitive.usize.html)
+- [Rust std: slice `len`](https://doc.rust-lang.org/stable/std/primitive.slice.html)
+- [Rust Reference: Array indexing expressions](https://doc.rust-lang.org/stable/reference/expressions/array-expr.html)
+- [Rust Reference: numeric types](https://doc.rust-lang.org/stable/reference/types/numeric.html)
+- [The Rust Book: Data Types](https://doc.rust-lang.org/stable/book/ch03-02-data-types.html)
+- [Rust Reference: Operator overflow](https://doc.rust-lang.org/stable/reference/expressions/operator-expr.html)
 
 ## Related wiki pages
 

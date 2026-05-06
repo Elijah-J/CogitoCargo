@@ -3,9 +3,9 @@
 method: llm-compiled
 compiled: 2026-05-06
 sources:
-  - output/docs/rust/cargo/commands/cargo-new.md
-  - output/docs/rust/book/ch01-03-hello-cargo.md
-  - output/docs/rust/cargo/guide/project-layout.md
+  - https://doc.rust-lang.org/stable/cargo/commands/cargo-new.html
+  - https://doc.rust-lang.org/stable/book/ch01-03-hello-cargo.html
+  - https://doc.rust-lang.org/stable/cargo/guide/project-layout.html
 topic: rust-playground/cargo-new
 ---
 
@@ -46,9 +46,9 @@ directory.
 
 ## Corpus references
 
-- [Cargo Book: cargo-new](../../output/docs/rust/cargo/commands/cargo-new.md)
-- [The Rust Book: Hello, Cargo!](../../output/docs/rust/book/ch01-03-hello-cargo.md)
-- [Cargo Book: Package Layout](../../output/docs/rust/cargo/guide/project-layout.md)
+- [Cargo Book: cargo-new](https://doc.rust-lang.org/stable/cargo/commands/cargo-new.html)
+- [The Rust Book: Hello, Cargo!](https://doc.rust-lang.org/stable/book/ch01-03-hello-cargo.html)
+- [Cargo Book: Package Layout](https://doc.rust-lang.org/stable/cargo/guide/project-layout.html)
 
 ## Related wiki pages
 
