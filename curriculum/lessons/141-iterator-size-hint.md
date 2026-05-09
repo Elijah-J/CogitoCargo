@@ -1,6 +1,6 @@
 ---
 id: 141-iterator-size-hint
-status: draft
+status: accepted
 evidence: ../evidence/141-iterator-size-hint.md
 ---
 

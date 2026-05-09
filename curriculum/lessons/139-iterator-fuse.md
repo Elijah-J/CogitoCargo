@@ -1,6 +1,6 @@
 ---
 id: 139-iterator-fuse
-status: draft
+status: accepted
 evidence: ../evidence/139-iterator-fuse.md
 ---
 

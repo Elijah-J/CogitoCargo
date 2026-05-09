@@ -1,6 +1,6 @@
 ---
 id: 140-iterator-step-by
-status: draft
+status: accepted
 evidence: ../evidence/140-iterator-step-by.md
 ---
 
